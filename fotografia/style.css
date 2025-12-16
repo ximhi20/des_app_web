@@ -88,3 +88,7 @@ form.busqueda::after{
 form.busqueda button img{
     width: 20px;
 }
+
+.limites{
+    background-image: url("./img/paisajes/cielo.png");
+}
