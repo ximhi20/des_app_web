@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+header section{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.logo,
+.directorios ul,
+.granbotton{
+    display: flex;
+}
+
+.directorios ul{
+    gap: 10px;
+}
+
+.logo img{
+    height: 60px;
+    aspect-ratio: 1/1;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.directorios ul{
+    list-style: none;
+   
+}
+
+.directorios a,
+footer p{
+    color: #707070;
+}
+
+.granboton button{
+    width: 100px;
+    height: 25px;
+}
+
+.registro{
+    background-color: #00b7ff;
+}
