@@ -8,9 +8,13 @@ body{
     font-family: sans-serif, Arial, Helvetica;
 }
 
+img{
+    max-width: 100%;
+}
+
 header section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -51,4 +55,22 @@ footer p{
 
 .registro{
     background-color: #00b7ff;
+}
+
+form.busqueda input[type=text]{
+    padding: 5px;
+    border-radius: 10px;
+    border: 0px;
+    float: left;
+    width: 400px;
+}
+
+form.busqueda button{
+    float: left;
+    position: relative;
+    left: -20px;
+}
+
+form.busqueda button img{
+    width: 17px;
 }
