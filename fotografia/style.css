@@ -6,6 +6,7 @@ body{
     background-color: black;
     color: white;
     font-family: sans-serif, Arial, Helvetica;
+    text-align: center;
 }
 
 img{
@@ -20,8 +21,16 @@ header section{
 
 .logo,
 .directorios ul,
-.granbotton{
+.granboton{
     display: flex;
+}
+
+.granboton button{
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .directorios ul{
@@ -48,11 +57,6 @@ footer p{
     color: grey;
 }
 
-.granboton button{
-    width: 100px;
-    height: 25px;
-}
-
 .registro{
     background-color: #00b7ff;
 }
@@ -65,24 +69,16 @@ form.busqueda input[type=text]{
     padding: 5px;
     border-radius: 10px;
     border: none;
-    float: left;
+    display: flex;
     width: 400px;
 }
 
 form.busqueda button{
-    float: left;
     position: relative;
     left: -20px;
     border-radius: 10px;
     background: linear-gradient(white, grey);
     border: none;
-    cursor: pointer;
-}
-
-form.busqueda::after{
-    content: "";
-    clear: both;
-    display: table;
 }
 
 form.busqueda button img{
@@ -91,4 +87,66 @@ form.busqueda button img{
 
 .limites{
     background-image: url("./img/paisajes/cielo.png");
+    background-size: cover;
+    background-position: center;
+    gap: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.limites p{
+    font-size: 18px;
+}
+
+.limites p.izquierda{
+    text-align: left;
+}
+
+.limites p.derecha{
+    text-align: right;
+}
+
+.fichas{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px;
+    color: black;
+}
+
+button{
+    cursor: pointer;
+}
+
+.boton button{
+    background: linear-gradient(#737373, #D9D9D9);
+    border: 1px solid black;
+    width: 120px;
+    height: 20px;
+    margin: 5px;
+}
+
+.fichas button{
+    align-self: center;
+}
+
+.fichas div{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.fichas img{
+    height: 150px;
+    min-width: 200px;
+    border-radius: 10px;
+}
+
+.fichas .separador{
+    min-width: 2px;
+    height: 350px;
 }
