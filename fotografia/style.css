@@ -6,7 +6,13 @@ body{
     background-color: black;
     color: white;
     font-family: sans-serif, Arial, Helvetica;
-    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 img{
@@ -136,8 +142,10 @@ button{
     display: flex;
     flex-direction: column;
     max-width: 300px;
+    height: 400px;
     border-radius: 30px;
     padding: 10px;
+    align-self: center;
 }
 
 .fichas img{
@@ -148,5 +156,5 @@ button{
 
 .fichas .separador{
     min-width: 2px;
-    height: 350px;
+    height: 500px;
 }
