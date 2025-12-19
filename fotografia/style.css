@@ -214,3 +214,7 @@ footer div button{
     background-color: black;
     border: none;
 }
+
+footer a{
+    color: blue;
+}
