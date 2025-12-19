@@ -207,16 +207,10 @@ footer div{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-}
-
-footer div p{
-    position: absolute;
-    right: 30%;
+    justify-content: space-between;
 }
 
 footer div button{
     background-color: black;
     border: none;
-    position: absolute;
-    right: 0;
 }
