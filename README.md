@@ -11,4 +11,3 @@ Aquí tengo los archivos que vaya haciendo en clase.
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20)
 - Figma: [Horizon saga](https://www.figma.com/design/7cMVO3SucnuZw3SJgPOVYM/Horizon-saga?t=WDoomHIlHyZNQDrZ-1)
-
