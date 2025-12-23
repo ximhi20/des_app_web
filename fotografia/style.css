@@ -217,14 +217,38 @@ button{
     margin: 5px;
 }
 
-footer div{
+div.footer{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    gap: 10px;
 }
 
-footer div button{
+div.footer button[type=button]{
     background-color: var(--cf);
     border: none;
+}
+
+form.contacto div{
+    display: flex;
+}
+
+form.contacto input[type=email]{
+    padding: 5px;
+    border-radius: var(--radio1);
+    border: none;
+    width: 250px;
+}
+
+form.contacto button{
+    position: relative;
+    border-radius: var(--radio1);
+    background: var(--cl-g1);
+    right: 20px;
+    border: none;
+}
+
+form.contacto button img{
+    width: 20px;
 }
