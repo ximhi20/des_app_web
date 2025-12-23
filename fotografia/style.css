@@ -109,7 +109,7 @@ form.busqueda button img{
     background-size: cover;
     background-position: center;
     gap: 0;
-    margin: 0 -10px;
+    margin: 0 -8px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -223,12 +223,14 @@ div.footer{
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
+    margin: 10px;
 }
 
 div.footer button[type=button]{
     background-color: var(--cf);
     border: none;
 }
+
 
 form.contacto div{
     display: flex;
