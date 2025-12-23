@@ -73,4 +73,8 @@ div.lista a:hover{
   color: #72150E;
 }
 
+div.lista iframe{
+  margin-top: 10px;
+}
+
 /* *{outline: 1px solid red;} */
