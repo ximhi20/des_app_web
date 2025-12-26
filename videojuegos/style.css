@@ -1,7 +1,12 @@
+:root{
+  --cp: #72150E; /* Color principal. */
+  --cs: #D4D955; /* Color secundario. */
+}
+
 body{
   font-family:Georgia, 'Times New Roman', Times, serif;
   margin: 0 auto;
-  background-color: #72150E;
+  background-color: var(--cp);
   color: #04103C;
 }
 
@@ -38,12 +43,12 @@ div.lista img{
 }
 
 div.lista{
-  background-color: #D4D955;
+  background-color: var(--cs);
   border-radius: 26px;
   padding: 20px;
   margin: 10px auto;
   max-width: 300px;
-  box-shadow: 13px 12px 24px 6px #D4D955;
+  box-shadow: 13px 12px 24px 6px var(--cs);
 }
 
 section.conjunto{
@@ -56,8 +61,8 @@ section.conjunto{
 
 div.lista a{
   text-decoration: none;
-  background-color: #72150E;
-  color: #D4D955;
+  background-color: var(--cp);
+  color: var(--cs);
   text-align: center;
   display: block;
   border-radius: 20px;
@@ -65,13 +70,13 @@ div.lista a{
   font-weight: bold;
   letter-spacing: 2px;
   transition: 0.3s;
-  border: solid 2px #72150E;
+  border: solid 2px var(--cp);
 }
 
 div.lista a:hover{
   background: transparent;
   letter-spacing: 5px;
-  color: #72150E;
+  color: var(--cp);
 }
 
 div.lista details{
