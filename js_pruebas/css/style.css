@@ -1,0 +1,11 @@
+p,
+li{
+    list-style: none;
+    text-align: center;
+    color: yellow;
+    margin: 10px;
+}
+
+body{
+    background-color: blue;
+}
