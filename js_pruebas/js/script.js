@@ -1,13 +1,24 @@
 // Definimos las variables.
-let ciudad ='Gijón';
-let provincia ='Asturias';
-let pais ='España';
+let ciudad =[
+    'Gijón',
+    'Cherboug'
+];
+let provincia =[
+    'Asturias',
+    'Normandía'
+];
+let pais =[
+    'España',
+    'Francia'
+];
 
 // Construcción del "código final".
 let miHTML='<div>';
-miHTML+='<p>La ciudad de '+ciudad+' está en la provincia de '+provincia+', la cual se encuentra en el país de '+pais+'.';
-miHTML+='<br>Por lo tanto, '+ciudad+' está en '+pais+'.';
-miHTML+='</p>';
+for (let i = 0; i < ciudad.length; i++) { /* Creación de un "bucle" para meter los datos ahí. */
+    miHTML+='<p>La ciudad de '+ciudad[i]+' está en la provincia de '+provincia[i]+', la cual se encuentra en el país de '+pais[i]+'.';
+    miHTML+='<br>Por lo tanto, '+ciudad[i]+' está en '+pais[i]+'.';
+    miHTML+='</p>';
+};
 miHTML+='</div>'
 
 // Metemos el "código final" en el HTML.

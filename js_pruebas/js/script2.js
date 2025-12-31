@@ -3,7 +3,8 @@ let repeticiones=prompt('¿Cuántas repeticiones quieres ver?');
 let inicio=1;
 let incremento=1;
 
-let miHTML='<ul>';
+let miHTML='<h1>Esta lista contiene '+repeticiones+' elementos</h1>';
+miHTML+='<ul>';
 for (let i=inicio; i<=repeticiones; i+=incremento) {
     miHTML+='<li>'+i+'</li>';
 };
