@@ -1,3 +1,13 @@
+ul,
+div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: darkblue;
+    border-radius: 10px;
+    padding: 0;
+}
+
 p,
 li{
     list-style: none;
