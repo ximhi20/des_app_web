@@ -11,19 +11,29 @@ h2{
 }
 
 ul,
-div{
+div,
+section{
     display: flex;
     flex-wrap: wrap;
 }
 
+section{
+    justify-content: center;
+}
+
 ul,
-ol,
 div{
-    margin: 20px;
+    justify-content: center;
     background-color: darkblue;
     color: yellow;
     border-radius: 10px;
-    padding: 0;
+    padding: 10px;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.destaque{
+    background-color: lightyellow;
 }
 
 p,
