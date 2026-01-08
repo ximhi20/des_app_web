@@ -1,0 +1,46 @@
+h1,
+footer p,
+ul#listGen p{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul#listPicsum{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+ul#listImg li,
+ul#listGen li,
+ul#listPicsum li,
+ul#bucleArbol li{
+    list-style: none;
+    max-width: 350px;
+    justify-self: center;
+}
+
+section#tablaMult div{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section#tablaMult h2,
+section#tablaMult{
+    justify-self: center;
+}
+
+ul#bucleArbol li{
+    margin: 5px;
+    letter-spacing: 10px;
+}
+
+ul#bucleArbol li.navidad:nth-child(2n+1){
+    color: tan;
+}

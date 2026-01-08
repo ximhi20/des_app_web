@@ -3,7 +3,7 @@ let tablas =prompt("Dime hasta que tabla quieres llegar.");
 let numero = []; /* Se crea la array que quieres hacer. */
 for(let i=0; i<=tablas; i++) { /* Se hace un bucle en el que se mete el "resultado" en la array. */
         numero.push(i); /* El "push" se usa poniendo entre paréntesis lo que quieres meter en la array. */
-}
+};
 
 let miHTML='<h1>Tablas de multiplicar hasta la del '+tablas+'</h1><section>';
 for (let i = 1; i < numero.length; i++) {
