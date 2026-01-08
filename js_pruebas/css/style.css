@@ -1,4 +1,5 @@
 body{
+    background-color: blue;
     text-align: center;
 }
 
@@ -68,6 +69,97 @@ li{
     flex: 1 1 0;
 }
 
-body{
+section#cal ul li{
+    transition: .5s;
+}
+
+section#cal ul li:hover{
+    scale: 1.3;
+    background-color: red;
+    border-color: tan;
+    color: tan;
+}
+
+section#cal ul li.dia{
+    color: yellowgreen;
+    border-color: yellowgreen;
     background-color: blue;
+    font-weight: bold;
+}
+
+section#cal ul li.Enero:nth-child(8){
+    grid-column-start: 4;
+}
+
+section#cal ul li.Febrero:nth-child(8){
+    grid-column-start: 7;
+}
+
+section#cal ul li.Marzo:nth-child(8){
+    grid-column-start: 7;
+}
+
+section#cal ul li.Abril:nth-child(8){
+    grid-column-start: 3;
+}
+
+section#cal ul li.Mayo:nth-child(8){
+    grid-column-start: 5;
+}
+
+section#cal ul li.Junio:nth-child(8){
+    grid-column-start: 1;
+}
+
+section#cal ul li.Julio:nth-child(8){
+    grid-column-start: 3;
+}
+
+section#cal ul li.Agosto:nth-child(8){
+    grid-column-start: 6;
+}
+
+section#cal ul li.Septiembre:nth-child(8){
+    grid-column-start: 2;
+}
+
+section#cal ul li.Octubre:nth-child(8){
+    grid-column-start: 4;
+}
+
+section#cal ul li.Noviembre:nth-child(8){
+    grid-column-start: 7;
+}
+
+section#cal ul li.Diciembre:nth-child(8){
+    grid-column-start: 2;
+}
+
+section#cal ul li.Enero:nth-child(7n+3),
+section#cal ul li.Enero:nth-child(7n+4),
+section#cal ul li.Febrero:nth-child(7n),
+section#cal ul li.Febrero:nth-child(7n+1),
+section#cal ul li.Marzo:nth-child(7n),
+section#cal ul li.Marzo:nth-child(7n+1),
+section#cal ul li.Abril:nth-child(7n+4),
+section#cal ul li.Abril:nth-child(7n+5),
+section#cal ul li.Mayo:nth-child(7n+2),
+section#cal ul li.Mayo:nth-child(7n+3),
+section#cal ul li.Junio:nth-child(7n+6),
+section#cal ul li.Junio:nth-child(7n),
+section#cal ul li.Julio:nth-child(7n+4),
+section#cal ul li.Julio:nth-child(7n+5),
+section#cal ul li.Agosto:nth-child(7n+1),
+section#cal ul li.Agosto:nth-child(7n+2),
+section#cal ul li.Septiembre:nth-child(7n+5),
+section#cal ul li.Septiembre:nth-child(7n+6),
+section#cal ul li.Octubre:nth-child(7n+3),
+section#cal ul li.Octubre:nth-child(7n+4),
+section#cal ul li.Noviembre:nth-child(7n),
+section#cal ul li.Noviembre:nth-child(7n+1),
+section#cal ul li.Diciembre:nth-child(7n+5),
+section#cal ul li.Diciembre:nth-child(7n+6){
+    color: lightgreen;
+    border-color: lightgreen;
+    background-color: darkred;
 }
