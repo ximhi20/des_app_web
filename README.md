@@ -8,6 +8,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - fotografia: un desarrollo de la página web que David Fernández Casado realizó en Figma.
 - dragon_age: página web basada en la demo "[Solid State](https://html5up.net/solid-state)" de [HTML5 UP](https://html5up.net/).
 - js_pruebas: aquí realizo distintas pruebas con el JavaScript.
+- repaso_js_8_enero: aquí tengo los ejercicios de repaso del JavaScript del 8 de enero de 2026.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20)
