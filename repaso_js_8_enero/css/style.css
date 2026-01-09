@@ -48,7 +48,7 @@ section#tablaMult div div ul{
 section#tablaMult h2,
 section#tablaMult,
 section#matriz,
-section#matriz div{
+section#matriz div div{
     justify-self: center;
 }
 
@@ -102,6 +102,12 @@ section#cal ul li.dias:nth-child(7n){
     background-color: red;
 }
 
+section#matriz{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 section#matriz h2,
 section#matriz p{
     color: coral;
@@ -110,4 +116,16 @@ section#matriz p{
 section#matriz span{
     font-weight: bold;
     color: black;
+}
+
+section#matriz div.gen{
+    background-color: aqua;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+section#matriz img{
+    border-radius: 10px;
 }

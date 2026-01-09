@@ -7,10 +7,11 @@ let misJuegos = [
 
 let miHTML = '';
 
-miHTML+='<img src="'+misJuegos[0][3]+'">';
-miHTML+='<div><h2>'+misJuegos[0][0]+'</h2>';
-miHTML+= '<p><span>Director: </span>'+misJuegos[0][1]+'</p>';
-miHTML+= '<p><span>Año: </span>'+misJuegos[0][2]+'</p></div>';
-
+for (let i = 0; i < misJuegos.length; i++) {
+    miHTML+='<div class="gen"><img src="'+misJuegos[i][3]+'">';
+    miHTML+='<div><h2>'+misJuegos[i][0]+'</h2>';
+    miHTML+= '<p><span>Director: </span>'+misJuegos[i][1]+'</p>';
+    miHTML+= '<p><span>Año: </span>'+misJuegos[i][2]+'</p></div></div>';
+};
 
 document.querySelector('#matriz').innerHTML=miHTML;
