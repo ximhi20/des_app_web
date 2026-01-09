@@ -1,6 +1,7 @@
 h1,
 footer p,
-ul#listGen p{
+ul#listGen p,
+section#cal h2{
     text-align: center;
 }
 
@@ -28,11 +29,26 @@ ul#bucleArbol li{
 section#tablaMult div{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
 
+section#tablaMult div div{
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+section#tablaMult div div h3,
+section#tablaMult div div ul{
+    margin: 5px;
 }
 
 section#tablaMult h2,
-section#tablaMult{
+section#tablaMult,
+section#matriz,
+section#matriz div{
     justify-self: center;
 }
 
@@ -43,4 +59,55 @@ ul#bucleArbol li{
 
 ul#bucleArbol li.navidad:nth-child(2n+1){
     color: tan;
+}
+
+section#cal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#cal ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+section#cal div{
+    flex-wrap: nowrap;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+section#cal ul li{
+    background-color: coral;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section#cal ul li.dayName{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+section#cal ul li.dias:nth-child(7n-1),
+section#cal ul li.dias:nth-child(7n){
+    color: tan;
+    background-color: red;
+}
+
+section#matriz h2,
+section#matriz p{
+    color: coral;
+}
+
+section#matriz span{
+    font-weight: bold;
+    color: black;
 }
