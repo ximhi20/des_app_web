@@ -57,8 +57,14 @@ ul#bucleArbol li{
     letter-spacing: 10px;
 }
 
+@keyframes luz{
+    from{opacity:0.5;}
+    to{opacity:1;}
+}
+
 ul#bucleArbol li.navidad:nth-child(2n+1){
     color: tan;
+    animation: luz 1s infinite alternate;
 }
 
 section#cal{
