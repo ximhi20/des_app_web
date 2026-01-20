@@ -135,3 +135,20 @@ section#matriz div.gen{
 section#matriz img{
     border-radius: 10px;
 }
+
+nav#botones button,
+div#botones_sec button,
+div#miniaturas img,
+div#botones_lib img,
+div#botones_lib button{
+    cursor: pointer;
+}
+
+div#botones_lib{
+    display: flex;
+}
+
+div#botones_lib img{
+    width: 80px;
+    aspect-ratio: 4/5;
+}
