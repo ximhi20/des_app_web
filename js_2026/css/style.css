@@ -16,7 +16,6 @@ ul#listPicsum{
     justify-content: center;
 }
 
-
 ul#listImg li,
 ul#listGen li,
 ul#listPicsum li,
@@ -144,11 +143,42 @@ div#botones_lib button{
     cursor: pointer;
 }
 
-div#botones_lib{
+div#botones_lib,
+section.lista{
     display: flex;
+    justify-self: center;
+}
+
+div#botones_lib{
+    gap: 3px;
 }
 
 div#botones_lib img{
     width: 80px;
     aspect-ratio: 4/5;
+}
+
+section.lista{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+    padding: 15px;
+    background-color: orangered;
+    border-radius: 20px;
+}
+
+section.lista img{
+    border-radius: 10px;
+}
+
+section.lista h2{
+    margin: 0;
+    color: darkred;
+    text-align: center;
+}
+
+section.lista p{
+    text-align: justify;
+    color: lightcyan;
 }
