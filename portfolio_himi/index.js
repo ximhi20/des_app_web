@@ -19,27 +19,42 @@ const portHimi = {
 
     html: [
         {
-            titulo: 'Ejercicio 1',
-            descripcion:'Descripción de lo que se hizo en el ejercicio.',
-            url: '#'
+            titulo: 'Horizon',
+            descripcion:'Hice una página web sobre la saga de Horizon con 3 páginas enlazados entre sí, pudiendo ir de una a cualquiera de las otras dos.',
+            url: 'https://github.com/ximhi20/des_app_web/tree/main/dragon_age'
+        },
+        {
+            titulo: 'Videojuegos',
+            descripcion: 'Una lista con distintos videojuegos de distintas plataformas con una descripción y la opción de escuchar el tema musical principal de cada juego.',
+            url: 'https://github.com/ximhi20/des_app_web/tree/main/videojuegos'
         }
     ],
 
     css: [
         {
-            titulo: 'Ejercicio 2',
-            descripcion:'Descripción de lo que se hizo en el ejercicio.',
-            url: '#'
+            titulo: 'Fotografía',
+            descripcion:'Realización de una página web basada en la que David Fernández Casado hizo en Figma.',
+            url: 'https://github.com/ximhi20/des_app_web/tree/main/fotografia'
         }
     ],
 
     js: [
         {
-            titulo: 'Ejercicio 3',
-            descripcion:'Descripción de lo que se hizo en el ejercicio.',
-            url: '#'
+            titulo: 'Portfolio',
+            descripcion:'Creación de un portfolio en el que se muestran algunos ejercicios realizados, (Este mismo ejercicio).',
+            url: 'https://github.com/ximhi20/des_app_web/tree/main/portfolio_himi'
+        },
+        {
+            titulo: 'Calendario',
+            descripcion: 'Se creó un calendario basado en el de 2026 (lo relevante son &quot005.html&quot, &quotscript5.js&quot y &quotstyle.css&quot).',
+            url: 'https://github.com/ximhi20/des_app_web/tree/main/js_pruebas'
+        },
+        {
+            titulo: 'Interactividad',
+            descripcion: 'Realicé una ficha que se puede cambiar pulsando en las flechas o las imágenes de abajo (es relevante todo con el nombre &quotcambio_lib&quot y el css)',
+            url: 'https://github.com/ximhi20/des_app_web/tree/main/js_2026'
         }
-    ],
+    ]
 };
 
 const miIMG = portHimi.alumno.img;
@@ -49,7 +64,7 @@ const miDesc = portHimi.alumno.descripcion;
 
 let misRedes = '';
 for(let i=0; i<portHimi.alumno.redes.length; i++){
-    misRedes+=`<a href="${portHimi.alumno.redes[i].url}"><button type="button">${portHimi.alumno.redes[i].red}</button></a>`;
+    misRedes+=`<a href="${portHimi.alumno.redes[i].url}" target="_blank"><button type="button">${portHimi.alumno.redes[i].red}</button></a>`;
 };
 
 function show(tipo='all'){
@@ -62,7 +77,7 @@ function show(tipo='all'){
                 <h3>${datos[j].titulo}</h3>
                 <p class="type">${tipo}</p>
                 <p class="desc">${datos[j].descripcion}</p>
-                <a href="${datos[j].url}"><button type="button">Enlace al ejercicio</button></a>
+                <a href="${datos[j].url}" target="_blank"><button type="button">Enlace al ejercicio</button></a>
             </div>
             `;
         };
