@@ -27,6 +27,11 @@ const portHimi = {
             titulo: 'Videojuegos',
             descripcion: 'Una lista con distintos videojuegos de distintas plataformas con una descripción y la opción de escuchar el tema musical principal de cada juego.',
             url: 'https://github.com/ximhi20/des_app_web/tree/main/videojuegos'
+        },
+        {
+            titulo: 'Kingdom Hearts',
+            descripcion: 'Una página web simple en la que se muestra una descripción sobre distintos aspectos relacionados con Kingdom Hearts.',
+            url: 'https://codepen.io/Ximhi-20/pen/WbwgVPY'
         }
     ],
 
@@ -35,6 +40,26 @@ const portHimi = {
             titulo: 'Fotografía',
             descripcion:'Realización de una página web basada en la que David Fernández Casado hizo en Figma.',
             url: 'https://github.com/ximhi20/des_app_web/tree/main/fotografia'
+        },
+        {
+            titulo: 'Tablero de ajedrez',
+            descripcion: 'Creación de un tablero de ajedrez, mostrando los números de las filas y las letras de las columnas y con dos colores distintos.',
+            url: 'https://codepen.io/Ximhi-20/pen/GgqKYEG'
+        },
+        {
+            titulo: 'Escuela diseño',
+            descripcion: 'Usando variables de CSS para  modificar los colores de una página web.',
+            url: 'https://codepen.io/Ximhi-20/pen/JoKPwjV'
+        },
+        {
+            titulo: 'Examen',
+            descripcion: 'El ejercicio del primer examen del curso, donde se hizo una lista de los alumnos de clase con lo que se había estudiado hasta ese momento.',
+            url: 'https://codepen.io/Ximhi-20/pen/GgqJNJj'
+        },
+        {
+            titulo: 'Animación',
+            descripcion: 'Una animación en una lista de Llaves Espada que sucede mientras estés pulsando una de ellas.',
+            url: 'https://codepen.io/Ximhi-20/pen/ZYOLPrK'
         }
     ],
 
@@ -53,6 +78,21 @@ const portHimi = {
             titulo: 'Interactividad',
             descripcion: 'Realicé una ficha que se puede cambiar pulsando en las flechas o las imágenes de abajo (es relevante todo con el nombre &quotcambio_lib&quot y el css)',
             url: 'https://github.com/ximhi20/des_app_web/tree/main/js_2026'
+        },
+        {
+            titulo: 'Lugares Dragon Age',
+            descripcion: 'Una lista de lugares en el mundo de Thedas del universo de Dragon Age, con un filtro para los habitantes.',
+            url: 'https://codepen.io/Ximhi-20/pen/myErvXQ'
+        },
+        {
+            titulo: 'Contador letras',
+            descripcion: 'Se muestra el monólogo que Sylens hace al principio de Horizon Forbidden West (spoilers para Zero Dawn), saliendo letra por letra y teniendo contándolas final',
+            url: 'https://codepen.io/Ximhi-20/pen/KwMaYEB'
+        },
+        {
+            titulo: 'Menú de comandos',
+            descripcion: 'Una muestra de como se ve el menú de comandos de KHII, puedes pulsar los distintos botones para comprobar como se vería en otros mundos o mientras se selecciona una parte en el juego.',
+            url: 'https://codepen.io/Ximhi-20/pen/RNRgRJy'
         }
     ]
 };
