@@ -52,10 +52,10 @@ for(let i=0; i<portHimi.alumno.redes.length; i++){
     misRedes+=`<a href="${portHimi.alumno.redes[i].url}"><button type="button">${portHimi.alumno.redes[i].red}</button></a>`;
 };
 
-function show(tipo){
-    let datos = portHimi[tipo];
+function show(tipo='all'){
     let misEjer = '';
-    if(tipo != 'all'){
+    function muestra(tipo){
+        let datos = portHimi[tipo];
         for(let j=0; j<datos.length; j++){
             misEjer+=`
             <div>
@@ -66,16 +66,36 @@ function show(tipo){
             </div>
             `;
         };
-        document.querySelector(`#all`).innerHTML=misEjer;
+    };
+    let boton=`
+        <button id="css" type="button" onclick="show('css')">CSS</button>
+        <button id="html" type="button" onclick="show('html')">HTML</button>
+        <button id="js" type="button" onclick="show('js')">JS</button>
+        <button id="all" type="button" onclick="show('all')">General</button>
+    `;
+    if(tipo != 'all'){
+        muestra(tipo);
+        document.querySelector(`#ejer`).innerHTML=misEjer;
+        document.querySelector('#btn').innerHTML=boton;
+        document.querySelector(`#${tipo}`).style='display: none;';
+        document.querySelector('#actual').innerHTML=tipo;
+        document.querySelector(`#actual`).style='text-transform: uppercase;';
     }
     else{
-        show('html');
-        show('css');
-        show('js');
+        muestra('html');
+        muestra('css');
+        muestra('js');
+        document.querySelector(`#ejer`).innerHTML=misEjer;
+        document.querySelector('#btn').innerHTML=boton;
+        document.querySelector('#all').style='display: none;';
+        document.querySelector('#actual').innerHTML='General';
+        document.querySelector(`#actual`).style='';
     };
 };
 
-show('all');
+
+
+show();
 document.querySelector('#avatar').src=miIMG;
 document.querySelector('#nombre').innerHTML=miNombre;
 document.querySelector('#nick').innerHTML=miNick;
