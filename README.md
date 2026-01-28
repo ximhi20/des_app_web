@@ -9,7 +9,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - dragon_age: página web basada en la demo "[Solid State](https://html5up.net/solid-state)" de [HTML5 UP](https://html5up.net/).
 - js_pruebas: aquí realizo distintas pruebas con el JavaScript.
 - js_2026: aquí tengo los ejercicios de JavaScript de 2026.
-- [portfolio_himi](portfolio_himi): una lista hecha en una página única sobre ejercicios que realicé a lo largo del curso.
+- portfolio_himi: una lista hecha en una página única sobre ejercicios que realicé a lo largo del curso.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20)
