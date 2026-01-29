@@ -3,13 +3,13 @@
 Aquí tengo los archivos que vaya haciendo en clase.
 
 ## Archivos hasta ahora:
+- portfolio_himi_daw_2026: una lista hecha en una página única sobre ejercicios que realicé a lo largo del curso (se pasó a otro [repositorio](https://github.com/ximhi20/portfolio_himi_daw_2026)).
 - videojuegos: una lista de videojuegos.
 - horizon: una página web sobre la saga de Horizon con 3 páginas.
 - fotografia: un desarrollo de la página web que David Fernández Casado realizó en Figma.
 - dragon_age: página web basada en la demo "[Solid State](https://html5up.net/solid-state)" de [HTML5 UP](https://html5up.net/).
 - js_pruebas: aquí realizo distintas pruebas con el JavaScript.
 - js_2026: aquí tengo los ejercicios de JavaScript de 2026.
-- portfolio_himi_daw_2026: una lista hecha en una página única sobre ejercicios que realicé a lo largo del curso (se pasó a otro [repositorio](https://github.com/ximhi20/portfolio_himi_daw_2026)).
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20)
