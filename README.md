@@ -12,5 +12,5 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - js_2026: aquí tengo los ejercicios de JavaScript de 2026.
 
 ## Enlaces:
-- Codepen: [Ximhi 20](https://codepen.io/Ximhi-20)
-- Figma: [Horizon saga](https://www.figma.com/design/7cMVO3SucnuZw3SJgPOVYM/Horizon-saga?t=WDoomHIlHyZNQDrZ-1)
+- Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
+- Figma: [Horizon saga](https://www.figma.com/design/7cMVO3SucnuZw3SJgPOVYM/Horizon-saga?t=WDoomHIlHyZNQDrZ-1).
