@@ -23,11 +23,11 @@ document.querySelector(`#botones_lib`).innerHTML=miHTML;
 document.querySelector(`#imag${position}`).style=style;
 }
 
-let miHTML='<button onclick="ant()"><</button>';
+let miHTML='<button onclick="ant()">&lt;</button>';
 for (let i=0; i<images.length; i++){
     miHTML+=`<img id="imag${i}" onclick="sele(${i})" src="${images[i].link}" alt="${images[i].name}">`;
 };
-miHTML+='<button onclick="sig()">></button>';
+miHTML+='<button onclick="sig()"> &gt;</button>';
 
 let position=ini;
 

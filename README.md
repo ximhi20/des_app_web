@@ -10,6 +10,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - dragon_age: página web basada en la demo "[Solid State](https://html5up.net/solid-state)" de [HTML5 UP](https://html5up.net/).
 - js_pruebas: aquí realizo distintas pruebas con el JavaScript.
 - js_2026: aquí tengo los ejercicios de JavaScript de 2026.
+- jurassic_park: un ejercicio en el que muestro datos imagen por imagen.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).

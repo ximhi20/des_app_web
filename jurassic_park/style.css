@@ -1,0 +1,24 @@
+html{
+    text-align: center;
+    background-color: #E5DF28;
+}
+
+button{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    color: #BA1323;
+}
+
+section#info{
+    background-color: #BA1323;
+    padding: 10px;
+    margin: 10px;
+    max-width: 350px;
+    justify-self: center;
+}
