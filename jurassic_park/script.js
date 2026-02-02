@@ -75,7 +75,7 @@ function start(){
 };
 
 function next(){
-    if(actual<LAST){
+    if(actual<LAST-1){
         actual++
     };
     ejecutar();

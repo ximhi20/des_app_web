@@ -36,7 +36,7 @@ function sele(pos){
     ejecutar();
 };
 function sig(){
-    if(position<images.length){
+    if(position<images.length-1){
         position++;
     }
     else{
@@ -49,7 +49,7 @@ function ant(){
         position--;
     }
     else{
-        position=images.length;
+        position=images.length-1;
     }
     ejecutar();
 };
