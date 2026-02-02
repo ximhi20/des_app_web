@@ -7,6 +7,10 @@ button{
     cursor: pointer;
 }
 
+:disabled{
+    cursor: default;
+}
+
 img{
     max-width: 100%;
     border-radius: 10px;

@@ -38,13 +38,9 @@ const MOVIES=[
 const LAST = MOVIES.length;
 
 let miInfo = '';
-let actual = 0;
+let actual = '';
 
 function ejecutar(){
-    stilo=`
-        color: grey;
-        cursor: default;
-    `;
     miInfo=`
         <h2>${MOVIES[actual].nombre}</h2>
         <img src="${MOVIES[actual].image}">
@@ -52,21 +48,21 @@ function ejecutar(){
     `;
     document.querySelector('#info').innerHTML=miInfo;
     if(actual==0){
-        document.querySelector('#ant').style=stilo;
-        document.querySelector('#one').style=stilo;
+        document.querySelector('#ant').disabled='true';
+        document.querySelector('#one').disabled='true';
     }
     else{
-        document.querySelector('#ant').style='';
-        document.querySelector('#one').style='';
+        document.querySelector('#ant').disabled='';
+        document.querySelector('#one').disabled='';
     };
     if(actual==LAST-1){
-        document.querySelector('#sig').style=stilo;
-        document.querySelector('#ult').style=stilo;
+        document.querySelector('#sig').disabled='true';
+        document.querySelector('#ult').disabled='true';
     }
     else{
-        document.querySelector('#sig').style='';
-        document.querySelector('#ult').style='';
-    }
+        document.querySelector('#sig').disabled='';
+        document.querySelector('#ult').disabled='';
+    };
 };
 
 function start(){
