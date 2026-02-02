@@ -1,0 +1,67 @@
+@keyframes anim{
+    from{opacity:0; scale: 0;}
+}
+
+html{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1,
+footer p{
+    color: beige;
+}
+
+body.primer{
+    background-color: darkblue;
+}
+
+body.segundo{
+    background-color: lightblue;
+}
+
+body.tercero{
+    background-color: purple;
+}
+
+body.days{
+    background-color: darkred;
+}
+
+body.chi{
+    background-color: black;
+}
+
+:disabled{
+    cursor: default;
+}
+
+section#frases{
+    justify-self: center;
+    background-color: blue;
+    color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 340px;
+}
+
+section#frases p.quote{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+section#frases p.talk{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 5px;
+    animation: anim 1s;
+}
+
+button{
+    cursor: pointer;
+}

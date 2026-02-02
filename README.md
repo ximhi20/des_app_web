@@ -11,6 +11,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - js_pruebas: aquí realizo distintas pruebas con el JavaScript.
 - js_2026: aquí tengo los ejercicios de JavaScript de 2026.
 - jurassic_park: un ejercicio en el que muestro datos imagen por imagen.
+- examen_himi_js: el examen práctico del 27/01/2026 (UF1842).
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
