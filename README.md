@@ -12,6 +12,8 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - js_2026: aquí tengo los ejercicios de JavaScript de 2026.
 - jurassic_park: un ejercicio en el que muestro datos imagen por imagen.
 - examen_himi_js: el examen práctico del 27/01/2026 (UF1842).
+- prueba_php: el primer php que hice para probar como se hace.
+- restaurante_miguel: un ejercicio para convertir la página creada por Miguel Esteban a PHP.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
