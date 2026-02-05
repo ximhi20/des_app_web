@@ -14,6 +14,6 @@
 <body id="<?php echo $id; ?>">
     <header>
         <a href="index.php" class="logo">Le Menhir</a>
-        <?php include "menu.php"; ?>
+        <?php include "php-asset/menu.php"; ?>
     </header>
     <main>

@@ -14,6 +14,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - examen_himi_js: el examen práctico del 27/01/2026 (UF1842).
 - prueba_php: el primer php que hice para probar como se hace.
 - restaurante_miguel: un ejercicio para convertir la página creada por Miguel Esteban a PHP.
+- kingdom_hearts: una web que hice como HTML y la pasé a PHP (también tiene CSS y JS).
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).

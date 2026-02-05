@@ -1,36 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personajes - Kingdom Hearts</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body onload="lanzar('pers')">
-    <header>
-        <nav>
-            <a href="index.php"><button type="button">Inicio</button></a>
-            <a href="mundos.php"><button type="button">Mundos</button></a>
-            <a href="personajes.php"><button type="button">Personajes</button></a>
-        </nav>
-    </header>
+<?php
+    $pag = "Personajes - ";
+    $ejec = "onload='lanzar(`pers`)'";
+    include "php-asset/inicio.php";
+?>
 
-    <main>
-        <h1>Personajes de Kingdom Hearts:</h1>
+<h1>Personajes de Kingdom Hearts:</h1>
 
 
-        <h2>Protagonistas:</h2>
-        <section id="char_prin"></section>
+<h2>Protagonistas:</h2>
+<section id="char_prin"></section>
 
-        <h2>Antagonistas</h2>
-        <section id="char_ant"></section>
-    </main>
+<h2>Antagonistas</h2>
+<section id="char_ant"></section>
 
-    <footer>
-        <p>&copy; 2026</p>
-    </footer>
-
-
-    <script src="js/script.js"></script>
-</body>
-</html>
+<?php include "php-asset/final.php" ?>
