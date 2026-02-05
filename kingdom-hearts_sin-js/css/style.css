@@ -1,0 +1,35 @@
+html{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section div{
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+section div img{
+    max-height: 300px;
+}
+
+section div p{
+    text-align: justify;
+}
+
+ul{
+    list-style-position: inside;
+}
