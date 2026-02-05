@@ -9,9 +9,9 @@
 <body onload="lanzar('mund')">
     <header>
         <nav>
-            <a href="index.html"><button type="button">Inicio</button></a>
-            <a href="mundos.html"><button type="button">Mundos</button></a>
-            <a href="personajes.html"><button type="button">Personajes</button></a>
+            <a href="index.php"><button type="button">Inicio</button></a>
+            <a href="mundos.php"><button type="button">Mundos</button></a>
+            <a href="personajes.php"><button type="button">Personajes</button></a>
         </nav>
     </header>
 
