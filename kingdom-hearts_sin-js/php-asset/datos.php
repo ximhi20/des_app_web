@@ -88,6 +88,12 @@
                     "url" => "img/mundos/disney/wonderland.png",
                     "alt" => "Representación de Wonderland.",
                     "desc" => "Mundo representando la película animada de Alicia en el País de las Maravillas."
+                ],
+                [
+                    "name" => "Ciudad de Halloween",
+                    "url" => "img/mundos/disney/halloween_town.webp",
+                    "alt" => "Ciudad de Hallowen según el primer Kingdom Hearts.",
+                    "desc" => "Aquí viven Jack Skellington y los demás personajes de Pesadilla antes de Navidad."
                 ]
             ]
         ]
