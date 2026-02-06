@@ -20,6 +20,12 @@
                     "url" => "img/personajes/protas/roxas.webp",
                     "alt" => "Roxas como se ve en KH II.",
                     "desc" => "Personaje principal de KH 358/2 Days."
+                ],
+                [
+                    "name" => "Donald y Goofy",
+                    "url" => "img/personajes/protas/donald_goofy.jpeg",
+                    "alt" => "Donals y Goofy en sus prendas más comunes de Kingdom Hearts.",
+                    "desc" => "Los principales aliados que Sora tiene en la mayoría de los juegos en los que aparece, siendo un mago y un caballero reales respectivamente."
                 ]
             ],
             "ant" => [ // Los antagonistas.

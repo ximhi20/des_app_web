@@ -15,7 +15,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - prueba_php: el primer php que hice para probar como se hace.
 - restaurante_miguel: un ejercicio para convertir la página creada por Miguel Esteban a PHP.
 - kingdom_hearts: una web que hice como HTML y la pasé a PHP (también tiene CSS y JS).
-- kingdom-hearts_sin-js: una versión del archivo anterior al que le quité el JS y sustituí por PHP.
+- kingdom-hearts_sin-js: una versión del archivo anterior al que le quité el JS y sustituí por PHP, también se amplió un poco.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
