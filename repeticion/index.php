@@ -1,5 +1,5 @@
 <?php
-    $juego = "Kingdom Hearts II";
+    $juego = $_GET["game"];
 ?>
 
 <!DOCTYPE html>
