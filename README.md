@@ -16,7 +16,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - restaurante_miguel: un ejercicio para convertir la página creada por Miguel Esteban a PHP.
 - kingdom_hearts: una web que hice como HTML y la pasé a PHP (también tiene CSS y JS).
 - kingdom-hearts_sin-js: una versión del archivo anterior al que le quité el JS y sustituí por PHP, también se amplió un poco.
-- repeticion: una repetición de un mismo texto en PHP.
+- get_get: una prueba del comando $_GET[] en PHP.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
