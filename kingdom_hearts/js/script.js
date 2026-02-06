@@ -77,7 +77,8 @@ const LIST = {
 // Función para crear las listas de personajes y mundos, con "rele" como la parte de LIST a usar y "id" la id del elemento a "sustituir".
 function lista(rele, id) {
     let laLista = '';
-    let rel = rele;
+    // Se mantiene la parte del for como referencia:
+    /* let rel = rele;
     for (let i=0; i<rel.length; i++) {
         laLista += `
             <div>
@@ -86,12 +87,22 @@ function lista(rele, id) {
                 <p>${rel[i].desc}</p>
             </div>
         `;
-    };
+    };*/
+    // Prueba del forEach:
+    rele.forEach(element => {
+        laLista += `
+            <div>
+                <h3>${element.name}</h3>
+                <img src="${element.url}" alt="${element.alt}">
+                <p>${element.desc}</p>
+            </div>
+        `;
+    });
     document.querySelector(`#${id}`).innerHTML = laLista;
 };
 
 
-// Se usa la función varias veces para sacar las distintas listas que se requieren (hay que empezar por LIST y pasar por todos los "puntos necesarios" excepto por el "número" y el último punto, con un "if" para que solo saque los ids que existan.
+// Se usa la función varias veces para sacar las distintas listas que se requieren (hay que empezar por LIST y pasar por todos los "puntos necesarios" excepto por el "número" y el último punto, con un "if" para que solo saque los ids que existan).
 function lanzar(tipo) {
     if (tipo=='pers'){
         lista(LIST.char.main, 'char_prin'); // Lista de personajes principales.

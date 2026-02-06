@@ -75,4 +75,27 @@
             ]
         ]
     ];
+
+    function lista($rele) {
+        /* Función para crear las listas de personajes y mundos, con "rele" como la parte de list a usar, luego la función se saca empezando por list y pasando por todas las "partes necesarias" excepto por el "número" y la "última parte" (por ejemplo: "<?php lista($list["char"]["main"]); ?>") [mantenido el "for" por la comparación, ver el "foreach"]. */
+        /* for($i=0; $i<count($rele); $i++){
+            echo "
+                <div>
+                    <h3>{$rele[$i]["name"]}</h3>
+                    <img src='{$rele[$i]["url"]}' alt='{$rele[$i]["alt"]}'>
+                    <p>{$rele[$i]["desc"]}</p>
+                </div>
+            ";
+        }; */
+        // Lo mismo que lo anterior pero simplificado, value ya "cuenta" el $i, por lo que no se tiene que poner aquí (el ejemplo sigue siendo aplicable).
+        foreach($rele as $value){
+            echo "
+                <div>
+                    <h3>{$value["name"]}</h3>
+                    <img src='{$value["url"]}' alt='{$value["alt"]}'>
+                    <p>{$value["desc"]}</p>
+                </div>
+            ";
+        };
+    };
 ?>
