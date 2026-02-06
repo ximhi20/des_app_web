@@ -8,9 +8,9 @@
 
 
 <h2>Mundos originales:</h2>
-<section id="mun_ori"></section>
+<section id="mun_ori" class="ficha"></section>
 
 <h2>Mundos Disney:</h2>
-<section id="mun_dis"></section>
+<section id="mun_dis" class="ficha"></section>
 
 <?php include "php-asset/final.php" ?>

@@ -7,14 +7,14 @@ img{
     border-radius: 5px;
 }
 
-section{
+section.ficha{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-section div{
+section.ficha div{
     background-color: red;
     padding: 10px;
     margin: 10px;
@@ -22,11 +22,11 @@ section div{
     border-radius: 10px;
 }
 
-section div img{
+section.ficha div img{
     max-height: 300px;
 }
 
-section div p{
+section.ficha div p{
     text-align: justify;
 }
 

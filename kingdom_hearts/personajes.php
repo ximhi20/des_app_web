@@ -8,9 +8,9 @@
 
 
 <h2>Protagonistas:</h2>
-<section id="char_prin"></section>
+<section id="char_prin" class="ficha"></section>
 
 <h2>Antagonistas</h2>
-<section id="char_ant"></section>
+<section id="char_ant" class="ficha"></section>
 
 <?php include "php-asset/final.php" ?>
