@@ -36,10 +36,16 @@
                     "desc" => "El antagonista principal en la mayoría de los juegos."
                 ],
                 [
-                    "name" => "'Organización XIII",
+                    "name" => "Organización XIII",
                     "url" => "img/personajes/antagonistas/organizationxiii.webp",
                     "alt" => "El Maestro Xehanort como se ve en KH III.",
                     "desc" => "Un grupo antagonístico recurrente en varios juegos."
+                ],
+                [
+                    "name" => "Maléfica",
+                    "url" => "img/personajes/antagonistas/maleficent.webp",
+                    "alt" => "Maléfica como se ve en KH III.",
+                    "desc" => "Una villana recurrente en varios juegos, utilizando los Sincorazón para cumplir con sus objetivos malvados."
                 ]
             ]
         ],
@@ -62,6 +68,12 @@
                     "url" => "img/mundos/originales/twilight_town.png",
                     "alt" => "Representación de Ciudad de Paso.",
                     "desc" => "Mundo en el que se encuentran aquellos personajes que hallan perdido el suyo por culpa de los Sincorazón."
+                ],
+                [
+                    "name" => "Vergel Radiante",
+                    "url" => "img/mundos/originales/radiant_garden.webp",
+                    "alt" => "Vergel Radiante tal como se ve en Birth by Sleep.",
+                    "desc" => "Este mundo tiene varios personajes de Square Enix y Disney, conocido como Bastión Hueco en las primeras veces que lo ves en los juegos."
                 ]
             ],
             "disney" => [ // Los que salieron de Disney.
