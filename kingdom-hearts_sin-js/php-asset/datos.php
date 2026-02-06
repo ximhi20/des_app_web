@@ -1,11 +1,10 @@
 <?php
-    // Lista con la información sobre los distintos personajes y Mundos.
     $web = "Kingdom Hearts";
-    $list = [ // Los personajes.
-        "char" => [ // Los principales.
-            "main" => [ // Nombre del personaje o mundo.
+    $list = [ // Lista con la información sobre los distintos personajes y Mundos.
+        "char" => [ // Los personajes.
+            "main" => [ // Los principales.
                 [
-                    "name" => "Sora", // URL para la imagen.
+                    "name" => "Sora", // Nombre del personaje o mundo.
                     "url" => "img/personajes/protas/sora.webp", // URL para la imagen.
                     "alt" => "Sora de Kingdom Hearts III.", // Alt de la imagen.
                     "desc" => "El protagonista y a quien controlas en la mayoría de los juegos." // la información.
