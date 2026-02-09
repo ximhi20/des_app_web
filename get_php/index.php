@@ -1,5 +1,8 @@
 <?php
     $juego = $_GET["game"];
+    $estilo = $_GET["style"];
+    $path = "css/";
+    $est = array_diff(scandir($path), array(".", ".."));
 ?>
 
 <!DOCTYPE html>
@@ -8,14 +11,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $juego; ?></title>
+    <link rel="stylesheet" href="<?php echo $estilo ?>">
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="?game=Kingdom%20Hearts%20II">Kingdom Hearts II</a></li>
-            <li><a href="?game=Horizon%20Zero%20Dawn">Horizon Zero Dawn</a></li>
-            <li><a href="?game=Dragon%20Age:%20Origins">Dragon Age: Origins</a></li>
-        </ul>
+        <form action="index.php" method="GET">
+            <label for="jg">Nombre de tu juego favorito:</label><br>
+            <input type="text" name="game" id="jg" require><br>
+            <label for="estilo">Selecciona el estilo:</label><br>
+            <select name="style" id="estilo">
+                <?php
+                    foreach ($est as $arch) {
+                        $partes = explode(".", $arch);
+                        $antes = $partes[0];
+                        echo "<option value='$path$arch'>$antes</option>";
+                    };
+                ?>
+            </select><br>
+            <button type="submit">Cargar la información</button>
+        </form>
     </header>
 
     <main>
