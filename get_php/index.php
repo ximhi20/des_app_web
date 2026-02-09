@@ -1,6 +1,4 @@
 <?php
-    $juego = $_GET["game"];
-    $estilo = $_GET["style"];
     $path = "css/";
     $est = array_diff(scandir($path), array(".", ".."));
 ?>
@@ -10,16 +8,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $juego; ?></title>
-    <link rel="stylesheet" href="<?php echo $estilo ?>">
+    <title>Entrada</title>
+    <style>
+        html{
+            text-align: center;
+            background-color: red;
+            color: blue;
+        }
+
+        form *{
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <form action="index.php" method="GET">
-            <label for="jg">Nombre de tu juego favorito:</label><br>
-            <input type="text" name="game" id="jg" require><br>
-            <label for="estilo">Selecciona el estilo:</label><br>
-            <select name="style" id="estilo">
+        <h1>Selección:</h1>
+    </header>
+
+    <main>
+        <form action="juego.php" method="GET">
+            <label>Nombre de tu juego favorito: <input type="text" name="game"></label><br>
+            <label>Selecciona el estilo: <select name="style">
                 <?php
                     foreach ($est as $arch) {
                         $partes = explode(".", $arch);
@@ -27,19 +37,13 @@
                         echo "<option value='$path$arch'>$antes</option>";
                     };
                 ?>
-            </select><br>
+            </select></label><br>
             <button type="submit">Cargar la información</button>
         </form>
-    </header>
-
-    <main>
-        <h1>Mi juego favorito es <?php echo $juego; ?>.</h1>
-        <p>Este juego (<?php echo $juego; ?>) es muy interesante.</p>
-        <p>Aunque quizá te gusten otros juegos, <?php echo $juego; ?> es el que me agrada a mi.</p>
     </main>
 
     <footer>
-        <p>&copy; <?php echo $juego; ?></p>
+        <p>&copy; 2026</p>
     </footer>
 </body>
 </html>

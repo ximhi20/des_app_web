@@ -1,9 +1,4 @@
 html{
     background-color: aqua;
-    text-align: center;
     color: darkred;
-}
-
-form *{
-    margin: 5px;
 }
