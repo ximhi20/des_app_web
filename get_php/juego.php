@@ -1,6 +1,11 @@
 <?php
-    $juego = $_GET["game"];
     $estilo = $_GET["style"];
+    if(isset($_GET["game"])){
+        $juego = $_GET["game"];
+    }
+    else{
+        $juego = "Horizon Forbidden West";
+    };
 ?>
 
 <!DOCTYPE html>
