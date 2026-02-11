@@ -1,7 +1,7 @@
 html{
     background-image: url("../img/fondo/kh_fondo.webp");
     background-color: black;
-    color: lightblue;
+    color: aqua;
     text-align: center;
 }
 
@@ -9,18 +9,47 @@ img{
     max-width: 100%;
 }
 
+img.sola{
+    background-color: tan;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.retorno{
+    background-color: whitesmoke;
+    color: coral;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+p.largo{
+    text-align: justify;
+}
+
 section.listando{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 section.listando div{
     background-color: coral;
+    color: lightblue;
     max-width: 300px;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+    transition: 1s;
+
+    &:hover{
+        background-color: red;
+        scale: 1.1;
+    }
 }
 
 section.listando div p{

@@ -1,4 +1,5 @@
 <?php
+    $zona = "Juegos";
     include "assets/include/juegos-kh.php";
     include "assets/include/inicio.php";
 ?>
