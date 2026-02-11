@@ -17,8 +17,8 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - kingdom_hearts: una web que hice como HTML y la pasé a PHP (también tiene CSS y JS).
 - kingdom-hearts_sin-js: una versión del archivo anterior al que le quité el JS y sustituí por PHP, también se amplió un poco.
 - get_php: una prueba del comando $_GET[] en PHP.
-- trailers-kh: una lista con trailers de algunos juegos de Kingdom Hearts (hecha en PHP).
-- galeria_php: una lista con información de distintos juegos de la saga de de Kingdom Hearts hecha con PHP
+- kh-trailers: una lista con trailers de algunos juegos de Kingdom Hearts (hecha en PHP).
+- kh-galeria: una lista con información de distintos juegos de la saga de de Kingdom Hearts realizada con PHP
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
