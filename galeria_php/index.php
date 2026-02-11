@@ -3,7 +3,7 @@
     include "assets/include/inicio.php";
 ?>
 
-<section><?php lista(); ?></section>
+<section class="listando"><?php lista(); ?></section>
 
 <?php
     include "assets/include/final.php";
