@@ -1,4 +1,4 @@
-<!-- Para dejar constancia de como hice para que pueda entrar en los directorios que necesite automáticamente, suponiendo que se está en una carpeta creada por "Local" en la que entraste en la carpeta "public", dentro de "app", borraste todo y se puso la carpeta con los directorios de GitHub. -->
+<!-- Para dejar constancia de como hice para que pueda entrar en los directorios que necesite automáticamente, suponiendo que se está en una carpeta creada por "Local" en la que entraste en la carpeta "public", dentro de "app", se borró todo y se puso la carpeta con los directorios de GitHub. -->
 
 <?php
     $path = "GitHub/des_app_web/*";
