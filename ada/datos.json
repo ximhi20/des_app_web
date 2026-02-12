@@ -1,0 +1,13 @@
+{
+	"frutas":[
+        {"nombre":"Manzana",		"color":"Rojo",			"precio":"1.2",		"icono":"🍎"},
+        {"nombre":"Pera",			"color":"Verde",		"precio":"59",		"icono":"🍐" },
+        {"nombre":"Tomate",			"color":"Rojo",			"precio":"19",		"icono":"🍅"},
+        {"nombre":"Aguacate",		"color":"verde",		"precio":"2",		"icono":"🥑"},
+        {"nombre":"Plátano",		"color":"Amarillo",	    "precio":"1.30",	"icono":"🍌"},
+        {"nombre":"Durián",			"color":"Amarillo",	    "precio":"12",		"icono":"🌽🍆"},
+        {"nombre":"Uvas",			"color":"morada",		"precio":"880",		"icono":"🍇"},
+        {"nombre":"Sandía",			"color":"roja",			"precio":"66",		"icono":"🍉"},
+        {"nombre":"Naranja",		"color":"Naranja",	    "precio":"1.5",		"icono":"🍊"}
+    ]
+}
