@@ -62,7 +62,7 @@
             "enlace" => "assets/img/portadas/iiirm.png",
             "altern" => "Logo del tercer juego junto con su DLC Re Mind.",
             "descRe" => "La tercera aventura \"oficial\" de Sora, donde tiene que evitar que Xehanort obtenga acceso a Kingdom Hearts.",
-            "descAv" => ""
+            "descAv" => "En el tercer juego numerado de la saga, controlas a Sora mientras se enfrenta a Xehanort y una \"recreada\" organización XIII por última vez, terminando la denominada Saga del Buscador de la Oscuridad; Re Mind es un DLC en el que descubres que es lo que Sora hace para rescatar a Kairi tras los eventos principales y porque sucede lo que sucede al final del juego."
         ],
         [
             "abrevi" => "Chi",
@@ -70,15 +70,15 @@
             "enlace" => "assets/img/portadas/chi.png",
             "altern" => "Logo de Chi.",
             "descRe" => "El juego de navegador de KH, tratando sobre los eventos que llevan a la Guerra de las Llaves Espada (descontinuado).",
-            "descAv" => ""
+            "descAv" => "Este juego originalmente exclusivo para navegadores web (en japonés) trata sobre la \"Era de los Cuentos de Hadas\" y como llego a terminar, referenciando en muchas ocasiones la Guerra de las Llaves Espada que dicen sucedera en el futuro; ahora este juego es inaccesible de forma normal ya que fue descontinuado."
         ],
         [
             "abrevi" => "UX",
             "nombre" => "Union &#935;(Cross)",
             "enlace" => "assets/img/portadas/unioncross.png",
             "altern" => "Logo de Union Cross.",
-            "descRe" => "El juego de móbil de KH, aunque, a diferencia de lo que se puede pensar, es uno completamente distinto al de navegador web (&#967;), actuando como una secuela incluso en el punto en el que aún se llamaba Unchained &#967;(Chi) (descontinuado).",
-            "descAv" => ""
+            "descRe" => "El juego de móvil de KH, aunque, a diferencia de lo que se puede pensar, es uno completamente distinto al de navegador web (&#967;), actuando como una secuela incluso en el punto en el que aún se llamaba Unchained &#967;(Chi) (descontinuado).",
+            "descAv" => "Originalmente denominado Unchained &#967;(Chi), este juego de móvil (global) es una secuela del de navegador web (&#967;), aunque pueda parecer un relanzamiento al suceder la mayoría de los eventos de &#967; (y algunos de los eventos exclusivos [del finald de &#967;]), el final de &#967;(Chi) revela que es Unchained &#967;(Chi) es, en realidad, una secuela; Union &#935;(Cross) es el mismo juego de nombre pero renombrado en cuanto se llega a nuevos eventos (obviamente [si ya conoces la historia] saltándose los eventos del final del juego de navegador web); este juego fue descontinuado y, aunque encontraras la forma de acceder al \"juego original\", no sería recomendable experimentarlo desde ahí, pues las cinemáticas no están ordenadas, es más recomendable verte un gameplay (después de verte uno de &#967;, claro [o, al menos, mírate el final de &#967; justo cuando el nombre cambie a Union &#935;])."
         ],
         [
             "abrevi" => "DR",
@@ -86,7 +86,7 @@
             "enlace" => "assets/img/portadas/dr.png",
             "altern" => "Logo de Dark Road.",
             "descRe" => "Viene en conjunto con Union Cross y trata de la historia de como Xehanort llegó a combertirse en el \"Buscador de la Oscuridad\" (descontinuado).",
-            "descAv" => ""
+            "descAv" => "Este juego de móvil que venía en conjunto con Union &#935;(Cross) trata sobre el momento en el que Xehanort está aprendiendo como usar una Llave Espada junto con otros aprendices y porqué acabó convirtiéndose en el Buscador de la Oscuridad; cuando Union &#935;(Cross) fue descontinuado, este era el único juego jugable que quedaba de la \"Saga de Cuentos de Hadas\", pero acabó siendo eliminado de la PlayStore, por lo que ahora es algo más difícil de acceder a este juego a no ser que ya lo hubieras descargado de antemano."
         ],
         [
             "abrevi" => "MoM",
@@ -94,7 +94,7 @@
             "enlace" => "assets/img/portadas/mom.png",
             "altern" => "Logo de Melody of Memory",
             "descRe" => "Tras los eventos del \"tercer\" juego, Kairi tiene que investigar sus recuerdos para poder encontrar a Sora.",
-            "descAv" => ""
+            "descAv" => "Después de que Sora desapareciera por sus actos en KH III Re Mind, sus amigos decidieron hacer distintas cosas para buscarle, en concreto, relevante para este juego, Kairi decidió \"meterse\" en la parte de sus recuerdos que tienen una conexión con los de Sora, intentando descubrir lo que le pasó y como encontrarle; este es un juego rítmico en el que no controlas a Kairi de forma directa a pesar de que se supone que es la protagonista de este juego."
         ],
         [
             "abrevi" => "M-L",
@@ -102,7 +102,7 @@
             "enlace" => "assets/img/portadas/missing-link.png",
             "altern" => "Logo de Missing-Link",
             "descRe" => "Este iba a tratar sobre los eventos desconocidos entre Union Cross y Dark Road, explorando los misterios de eventos en Scala ad Caelum (cancelado).",
-            "descAv" => ""
+            "descAv" => "Este iba a ser un juego de móvil en el que descubrirías los eventos desconocidos sobre los misterios de Scala ad Caelum entre los eventos de Union Cross y Dark Road, controlando a un portador de Llaves Espada que aparentemente perdió sus recuerdos, pero, como el juego fue cancelado, no se conocen los detalles exactos de como iba a conectar con el resto de la saga de juegos o la historia exacta que iba a contar."
         ]
     ];
 
