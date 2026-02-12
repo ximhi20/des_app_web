@@ -1,0 +1,66 @@
+{
+    "Primeros":[
+        {
+            "nombre":"Sopa de miso",
+            "ingredientes":"Agua, setas shiitake, miso (soja fermentada con sal), arroz, tofu y zanahorias",
+            "alérgenos":"Soja, gluten, pescado y apio.",
+            "precio":"10€",
+            "foto":"img/sopa-de-miso.webp"
+        },
+        {
+            "nombre":"Sopa de ramen",
+            "ingredientes":"Fideos de ramen, panceta de cerdo, huevos, agua, huesos de pollo y cerdo, jengibre, cebolla, zanahoria, ajo, salsa de soja, sake, mirin, aceite de girasol.",
+            "alérgenos":"Gluten, soja, huevo, sulfitos, pescado.",
+            "precio":"12€",
+            "foto":"img/sopa-de-ramen.webp"
+        }
+    ],
+    "Segundos":[
+        {
+            "nombre":"Sashimi de salmón marinado",
+            "ingredientes":"Salmón, limón, naranja, soja, aguacate, pepino, semillas y aceite de sésamo.",
+            "alérgenos":"Pescado, soja, sésamo, gluten, sulfitos y crustáceos.",
+            "precio":"15€",
+            "foto":"img/sashimi.webp"
+        },
+        {
+            "nombre":"Yakitori",
+            "ingredientes":"pollo, puerro, salsa de soja, mirin, sake, agua, sal y pimiento.",
+            "alérgenos":"Soja, gluten, sulfitos y pescado.",
+            "precio":"14€",
+            "foto":"img/yakitori.webp"
+        }
+    ],
+    "Postres":[
+        {
+            "nombre":"Dango Mitarashi",
+            "ingredientes":"Harina de arroz, agua, azúcar, salsa de soja, mirin y maicena.",
+            "alérgenos":"Soja, gluten y sulfito.",
+            "precio":"9€",
+            "foto":"img/dango-mitarashi.webp"
+        },
+        {
+            "nombre":"Mochi",
+            "ingredientes":"Harina de arroz, agua, azúcar, mantequilla, maicena, chocolate y nata.",
+            "alérgenos":"Lácteos, soja, gluten, frutos de cáscara",
+            "precio":"8€",
+            "foto":"img/mochi.webp"
+        }
+    ],
+    "Bebidas":[
+        {
+            "nombre":"Té verde",
+            "ingredientes":"Agua y ojas de Camellia sinenesis.",
+            "alérgenos":"No tiene.",
+            "precio":"2€",
+            "foto":"img/te-verde.jpg"
+        },
+        {
+            "nombre":"Sake",
+            "ingredientes":"Arroz, agua, hongo koji y levadura.",
+            "alérgenos":"No tiene.",
+            "precio":"2.50€",
+            "foto":"img/sake.jpg"
+        }
+    ]
+}
