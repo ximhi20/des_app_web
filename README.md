@@ -4,6 +4,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 
 ## Archivos hasta ahora:
 - [portfolio_himi_daw_2026](https://github.com/ximhi20/portfolio_himi_daw_2026): el portfolio que hice como página web, está en un repositorio distinto.
+- _auto-creación-tabla-php: un ejercicio en el que creé una función para crear tablas automáticamente en PHP, posible referencia.
 - _reference-auto-link: únicamente existe para recordar como hice para poder entrar en los ejercios que hice en PHP.
 - videojuegos: una lista de videojuegos.
 - horizon: una página web sobre la saga de Horizon con 3 páginas.
@@ -22,7 +23,6 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - kh-galeria: una lista con información de distintos juegos de la saga de de Kingdom Hearts realizada con PHP
 - ada: un "copia y pega" del ejercicio de prueba de transformar JSON a PHP.
 - lector_jsons: ejercicio de JSON realizado junto con Ramón.
-- _auto-creación-tabla-php: un ejercicio en el que creé una función para crear tablas automáticamente en PHP, posible referencia.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
