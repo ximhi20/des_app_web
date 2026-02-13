@@ -5,7 +5,7 @@
         ["Esto es para una prueba extra" /* td */] // tr.
     ];
     function tabla($contenido){ // Función para crear una tabla, arriba hay una referencia.
-        //global $probando; // No es necesario al ya estar metiéndolo como parámetro.
+        //global $probando; // No es necesario al ya estar metiéndolo como parámetro (equivale a $contenido).
         echo "<table>";
         for ($i=0; $i<count($contenido); $i++) {
             echo "<tr>";
