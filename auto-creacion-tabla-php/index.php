@@ -1,8 +1,8 @@
 <?php
-    $probando = [ // Esta sería la "tabla en sí", esta tabla se llamaria poniendo tabla($probando);.
-        ["Hola", "probando"/* El contenido específico se pone aquí dentro */], // Esto serían las filas.
-        ["Mundo", "que pasa", "otra prueba"],
-        ["Esto es para una prueba extra"]
+    $probando = [ // Esta sería la "tabla en sí" (table), esta tabla se llamaria poniendo "tabla($probando);".
+        ["Hola", /* th */ "probando"/* Este es el contenido específico (th) */], // Esto serían las filas (tr).
+        ["Mundo", /* td */ "que pasa", /* td */ "otra prueba" /* Aquí pasa a td */], // tr.
+        ["Esto es para una prueba extra" /* td */] // tr.
     ];
     function tabla($contenido){ // Función para crear una tabla, arriba hay una referencia.
         //global $probando; // No es necesario al ya estar metiéndolo como parámetro.
