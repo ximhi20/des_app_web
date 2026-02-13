@@ -21,6 +21,8 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - kh-trailers: una lista con trailers de algunos juegos de Kingdom Hearts (hecha en PHP).
 - kh-galeria: una lista con información de distintos juegos de la saga de de Kingdom Hearts realizada con PHP
 - ada: un "copia y pega" del ejercicio de prueba de transformar JSON a PHP.
+- lector_jsons: ejercicio de JSON realizado junto con Ramón.
+- auto-creación-tabla-php: un ejercicio en el que creé una función para crear tablas automáticamente en PHP, posible referencia.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
