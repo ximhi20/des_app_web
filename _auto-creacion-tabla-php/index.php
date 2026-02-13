@@ -4,13 +4,14 @@
         ["Mundo", /* td */ "que pasa", /* td */ "otra prueba" /* Aquí pasa a td */], // tr.
         ["Esto es para una prueba extra" /* td */] // tr.
     ];
-    function tabla($contenido){ // Función para crear una tabla, arriba hay una referencia.
-        //global $probando; // No es necesario al ya estar metiéndolo como parámetro (equivale a $contenido).
+    function tabla($table){ // Función para crear una tabla, arriba hay una referencia.
+        //global $probando; // No es necesario al ya estar metiéndolo como parámetro (equivale a $table).
         echo "<table>";
-        for ($i=0; $i<count($contenido); $i++) {
+        for ($i=0; $i<count($table); $i++) {
+            $filas = $table[$i];
             echo "<tr>";
-            for ($j=0; $j<count($contenido[$i]); $j++){
-                $texto = $contenido[$i][$j];
+            for ($j=0; $j<count($filas); $j++){
+                $texto = $filas[$j];
                 if ($i==0) {
                     echo "<th>{$texto}</th>";
                 }
