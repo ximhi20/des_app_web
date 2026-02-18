@@ -1,6 +1,7 @@
 <?php
     $json = file_get_contents("datos.json");
     $comida = json_decode($json, true);
+    $anadir = false;
 
     function listar($tipo){
         global $comida;
@@ -9,9 +10,9 @@
                 echo "
                     <div>
                         <h3>{$alimento["nombre"]}</h3>
-                        <p>Sus ingredientes son:<br>{$alimento["ingredientes"]}</p>
-                        <p>Tiene los alérgenos:<br>{$alimento["alérgenos"]}</p>
-                        <p>Su precio es: {$alimento["precio"]}</p>
+                        <p>Sus ingredientes son:<br>{$alimento["ingredientes"]}.</p>
+                        <p>Tiene los alérgenos:<br>{$alimento["alérgenos"]}.</p>
+                        <p>Su precio es: {$alimento["precio"]}€</p>
                         <img src='{$alimento["foto"]}' alt='Imagen de {$alimento["nombre"]}.'>
                     </div>
                 ";
@@ -44,6 +45,26 @@
                 listar($type);
             };
         ?></section>
+
+        <?php
+            if($anadir){
+                echo "
+                    <form action='plato.php' method='get'>
+                        <label>Tipo de plato: <select name='type'>";
+                        foreach ($comida as $type => $thing){
+                            echo "<option value='$type'>$type</option>";
+                        };
+                        echo "</select></label><br>
+                        <label>Nombre del plato: <input type='text' name='nom'></label><br>
+                        <label>Ingredientes: <input type='text' name='ing'></label><br>
+                        <label>Alérgenos: <input type='text' name='alr'></label><br>
+                        <label>Precio: <input type='number' name='prc'></label><br>
+                        <label>URL de la foto: <input type='text' name='url'></label><br>
+                        <input type='submit' value='Añade el nuevo plato.'>
+                    </form>
+                ";
+            };
+        ?>
     </main>
 
     <footer>
