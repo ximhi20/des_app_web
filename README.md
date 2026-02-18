@@ -5,6 +5,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 ## Archivos hasta ahora:
 - [portfolio_himi_daw_2026](https://github.com/ximhi20/portfolio_himi_daw_2026): el portfolio que hice como página web, está en un repositorio distinto.
 - _auto-creación-tabla-php: un ejercicio en el que creé una función para crear tablas automáticamente en PHP, posible referencia.
+- _ins_json: ejercicio de añadir datos a un JSON a través de PHP (referencia).
 - _reference-auto-link: únicamente existe para recordar como hice para poder entrar en los ejercios que hice en PHP.
 - videojuegos: una lista de videojuegos.
 - horizon: una página web sobre la saga de Horizon con 3 páginas.

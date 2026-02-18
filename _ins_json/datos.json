@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Sora",
+        "descri": "Protagonista de la Saga",
+        "primAp": "I"
+    },
+    {
+        "nombre": "Kairi",
+        "descri": "Mejor amiga de Sora",
+        "primAp": "I"
+    },
+    {
+        "nombre": "Aqua",
+        "descri": "Maestra de la Llave Espada del pasado",
+        "primAp": "BbS"
+    },
+    {
+        "nombre": "Roxas",
+        "descri": "Antiguo miembro de la Organización XIII",
+        "primAp": "II"
+    },
+    {
+        "nombre": "Xehanort",
+        "descri": "El enemigo principal de la saga",
+        "primAp": "BbS"
+    }
+]

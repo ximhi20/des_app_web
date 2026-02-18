@@ -1,0 +1,8 @@
+html{
+    text-align: center;
+}
+
+input[type=submit],
+button{
+    cursor: pointer;
+}
