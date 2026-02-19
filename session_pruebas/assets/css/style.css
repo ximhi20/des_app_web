@@ -2,6 +2,10 @@ html{
     text-align: center;
 }
 
+body{
+    background-color: aqua;
+}
+
 button{
     cursor: pointer;
     margin: 10px;
