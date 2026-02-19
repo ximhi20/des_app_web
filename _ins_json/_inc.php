@@ -9,8 +9,8 @@
             echo "
                 <div id='$id'>
                     <h3>{$info["nombre"]}</h3>
-                    <p>Apareció por primera vex en: KH{$info["primAp"]}</p>
-                    <p>{$info["descri"]}.</p>
+                    <p>Apareció por primera vez en: KH{$info["primAp"]}.</p>
+                    <p class='info'>{$info["descri"]}.</p>
                 </div>
             ";
         };

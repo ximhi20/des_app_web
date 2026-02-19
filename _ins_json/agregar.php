@@ -7,19 +7,17 @@
 
     array_push($personajes, ["nombre"=>$nombre,"descri"=>$descri,"primAp"=>$primAp]);
     $newJson = json_encode($personajes, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-    file_put_contents("datos.json",$newJson);
+    file_put_contents("assets/json/datos.json",$newJson);
 
     inicio();
-?>
 
-<?php
     echo "
         <h2>Muestra:</h2>
-        <div>
+        <section class='listado'><div>
             <h3>$nombre</h3>
-            <p>Apareció por primera vex en: KH$primAp</p>
+            <p>Apareció por primera vex en: KH{$primAp}.</p>
             <p>$descri.</p>
-        </div>
+        </div></section>
     ";
 
     if($debug){
@@ -28,8 +26,8 @@
         print_r($personajes);
         echo "</pre></code>";
     };
+
+    echo "<a href='index.php'><button type='button'>Regresa a ver los personajes</button></a>";
+
+    terminar();
 ?>
-
-<a href="index.php"><button type="button">Regresa a ver los personajes</button></a>
-
-<?php terminar(); ?>

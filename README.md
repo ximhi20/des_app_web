@@ -24,6 +24,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - kh-galeria: una lista con información de distintos juegos de la saga de de Kingdom Hearts realizada con PHP
 - ada: un "copia y pega" del ejercicio de prueba de transformar JSON a PHP.
 - lector_jsons: ejercicio de JSON realizado junto con Ramón.
+- session_pruebas: pruebas de como meterse en una sesión.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).

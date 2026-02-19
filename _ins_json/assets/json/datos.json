@@ -23,5 +23,15 @@
         "nombre": "Xehanort",
         "descri": "El enemigo principal de la saga",
         "primAp": "BbS"
+    },
+    {
+        "nombre": "Goofy",
+        "descri": "Uno de los primeros aliados de Sora",
+        "primAp": "I"
+    },
+    {
+        "nombre": "Axel",
+        "descri": "Miembro de la Organización XIII",
+        "primAp": "CoM"
     }
 ]
