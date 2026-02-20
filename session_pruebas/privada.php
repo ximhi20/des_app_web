@@ -8,11 +8,11 @@
     $title = "Privado";
     $nombre = "Página privada";
     require "_functions.php";
-    iniciar();
+    incluir("inicio");
 ?>
 
 <p>Esta es la página principal.</p>
 
 <?php
-    terminar();
+    incluir("final");
 ?>

@@ -2,11 +2,11 @@
     $title = "Denegado";
     $nombre = "No tienes permiso para estar aquí";
     require "_functions.php";
-    iniciar();
+    incluir("inicio");
 ?>
 
 <p>No deberías estar aquí.</p>
 
 <?php
-    terminar();
+    incluir("final");
 ?>

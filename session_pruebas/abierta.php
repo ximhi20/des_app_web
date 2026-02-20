@@ -6,11 +6,11 @@
     $nombre = "Sesión abierta";
     require "_functions.php";
 
-    iniciar();
+    incluir("inicio");
 ?>
 
 <p>Sesión iniciada correctamente.</p>
 
 <?php
-    terminar();
+    incluir("final");
 ?>

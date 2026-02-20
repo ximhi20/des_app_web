@@ -4,7 +4,7 @@
     $title = "Entrada";
     $nombre = "Iniciando sesión";
     require "_functions.php";
-    iniciar();
+    incluir("inicio");
 ?>
 
 <a href="abierta.php"><button type="button">Iniciar sesión.</button></a>
@@ -12,5 +12,5 @@
 <a href="privada.php"><button type="button">Entrada.</button></a>
 
 <?php
-    terminar();
+    incluir("final");
 ?>
