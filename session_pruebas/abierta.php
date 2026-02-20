@@ -4,7 +4,7 @@
 
     $title = "Apertura";
     $nombre = "Sesión abierta";
-    require "_functions.php";
+    require_once "_functions.php";
 
     incluir("inicio");
 ?>

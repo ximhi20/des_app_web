@@ -1,7 +1,7 @@
 <?php
     $title = "Denegado";
     $nombre = "No tienes permiso para estar aquí";
-    require "_functions.php";
+    require_once "_functions.php";
     incluir("inicio");
 ?>
 

@@ -7,7 +7,7 @@
 
     $title = "Privado";
     $nombre = "Página privada";
-    require "_functions.php";
+    require_once "_functions.php";
     incluir("inicio");
 ?>
 

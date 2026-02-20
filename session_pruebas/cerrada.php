@@ -4,7 +4,7 @@
 
     $title = "Cierre";
     $nombre = "Sesión cerrada";
-    require "_functions.php";
+    require_once "_functions.php";
 
     incluir("inicio");
 ?>

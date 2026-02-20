@@ -3,7 +3,7 @@
     $index = 1;
     $title = "Entrada";
     $nombre = "Iniciando sesión";
-    require "_functions.php";
+    require_once "_functions.php";
     incluir("inicio");
 ?>
 
