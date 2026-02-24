@@ -25,7 +25,8 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - ada: un "copia y pega" del ejercicio de prueba de transformar JSON a PHP.
 - lector_jsons: ejercicio de JSON realizado junto con Ramón.
 - session_pruebas: pruebas de como meterse en una sesión.
+- crm: copia del ejercicio del mismo nombre creado por Miguel al que le cambio los datos (se mantiene el original como un zip).
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
-- Figma: [Horizon saga](https://www.figma.com/design/7cMVO3SucnuZw3SJgPOVYM/Horizon-saga?t=WDoomHIlHyZNQDrZ-1).
+- Figma: [Horizon saga](https://www.figma.com/design/7cMVO3SucnuZw3SJgPOVYM/Horizon-saga).

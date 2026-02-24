@@ -1,0 +1,66 @@
+{
+  "site": {
+    "title": "Final Fantasy",
+    "description": "Los Final Fantasy más famosos.",
+    "email": "square-enix@games.jp",
+    "telephone": "+81 3 8518 1000",
+    "web": "https://www.square-enix-games.com/",
+    "lastupdate": "2026-02-24",
+    "social": [
+      { "facebook": "https://www.facebook.com/SquareEnix" },
+      { "instagram": "https://www.instagram.com/squareenix/" },
+      { "twitch": "https://www.twitch.tv/squareenix" },
+      { "twitter": "https://x.com/SquareEnix"}
+    ],
+    "menu": [
+      { "texto": "Inicio",    "url": "?page=home",      "title": "Ir a inicio",        "blank": false },
+      { "texto": "Servicios", "url": "?page=servicios", "title": "Ver nuestros servicios", "blank": false },
+      { "texto": "Contacto",  "url": "?page=contacto",  "title": "Contacta con nosotros",  "blank": false },
+      { "texto": "Blog",      "url": "https://blog.externo.com", "title": "Visita nuestro blog", "blank": true }
+    ]
+  },
+  "juegos": [
+    {
+      "titulo": "Final Fantasy VII",
+      "descripcion": "Innegablemente el más popular entre los FF.",
+      "fecha": "1997-01-31",
+      "precio": 15.99
+    },
+    {
+      "titulo": "Final Fantasy X/X-2",
+      "descripcion": "",
+      "fecha": "2013-12-26",
+      "precio": 11.47
+    },
+    {
+      "titulo": "Final Fantasy XV",
+      "descripcion": "",
+      "fecha": "2016-11-29",
+      "precio": 13.99
+    },
+    {
+      "titulo": "Final Fantasy VIII",
+      "descripcion": "",
+      "fecha": "1999-02-11",
+      "precio": 5.60
+    },
+    {
+      "titulo": "Final Fantasy IX",
+      "descripcion": "",
+      "fecha": "2000-07-07",
+      "precio": 8.77
+    },
+    {
+      "titulo": "Final Fantasy XIII",
+      "descripcion": "",
+      "fecha": "2009-12-17",
+      "precio": 5.96
+    },
+    {
+      "titulo": "Final Fantasy XVI",
+      "descripcion": "",
+      "fecha": "2023-06-22",
+      "precio": 79.99
+    }
+  ]
+}
