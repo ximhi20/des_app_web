@@ -10,25 +10,45 @@
       { "facebook": "https://www.facebook.com/SquareEnix" },
       { "instagram": "https://www.instagram.com/squareenix/" },
       { "twitch": "https://www.twitch.tv/squareenix" },
-      { "twitter": "https://x.com/SquareEnix"}
+      { "twitter": "https://x.com/SquareEnix" }
     ],
     "menu": [
-      { "texto": "Inicio",    "url": "?page=home",      "title": "Ir a inicio",        "blank": false },
-      { "texto": "Servicios", "url": "?page=servicios", "title": "Ver nuestros servicios", "blank": false },
-      { "texto": "Contacto",  "url": "?page=contacto",  "title": "Contacta con nosotros",  "blank": false },
-      { "texto": "Blog",      "url": "https://blog.externo.com", "title": "Visita nuestro blog", "blank": true }
+      {
+        "texto": "Inicio",
+        "url": "?page=home",
+        "title": "Ir a inicio",
+        "blank": false
+      },
+      {
+        "texto": "Servicios",
+        "url": "?page=servicios",
+        "title": "Ver nuestros servicios",
+        "blank": false
+      },
+      {
+        "texto": "Contacto",
+        "url": "?page=contacto",
+        "title": "Contacta con nosotros",
+        "blank": false
+      },
+      {
+        "texto": "Blog",
+        "url": "https://blog.externo.com",
+        "title": "Visita nuestro blog",
+        "blank": true
+      }
     ]
   },
   "juegos": [
     {
       "titulo": "Final Fantasy VII",
-      "descripcion": "Innegablemente el más popular entre los FF.",
+      "descripcion": "Innegablemente el más popular entre los FF, trata sobre la historia de Cloud Strife, un mercenario que se unió al grupo ecoterrorista AVALANCHE, y como acaban descubriendo una trama de enemigos aún más peligrosos que Shinra.",
       "fecha": "1997-01-31",
       "precio": 15.99
     },
     {
       "titulo": "Final Fantasy X/X-2",
-      "descripcion": "",
+      "descripcion": "Sigue la historia de Yuna y sus aventuras por Spira, enfrentándose a Sinh o a aquellos que amenacen su mundo.",
       "fecha": "2013-12-26",
       "precio": 11.47
     },
