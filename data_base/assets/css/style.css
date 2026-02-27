@@ -1,0 +1,30 @@
+html{
+    text-align: center;
+}
+
+body{
+    background-color: aqua;
+}
+
+img{
+    max-width: 100%;
+}
+
+section.juegos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.juegos div{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+section.juegos div img{
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+}

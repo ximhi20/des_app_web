@@ -1,6 +1,6 @@
 </main>
 <footer>
-     <?menu()?>
+    <?menu()?>
     <p>&copy; <?echo date('Y')?> - <?titulo()?> - <?appTitulo()?></p>
 </footer>
 </body>
