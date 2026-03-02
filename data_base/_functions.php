@@ -2,6 +2,7 @@
     require_once "_config.php";
 
     function incluir($zona){
+        global $index;
         include ENLACES[$zona];
     }
 
@@ -59,14 +60,14 @@
         echo "<h2>Lista de videojuegos</h2><section class='juegos'>";
         // Output data of each row
         while($row = $result->fetch_assoc()) {
-            echo "<div id='{$row["id"]}'>
+            echo "<a href='info.php?id={$row["id"]}'><div id='{$row["id"]}'>
                 <h3>{$row["Nombre"]}</h3>
-                <img src='".ENLACES["logo"].$row["Portada"]."' alt='portada de {$row["Nombre"]}'>
+                <img src='".ENLACES["logo"]."{$row["Portada"]}' alt='portada de {$row["Nombre"]}'>
                 <p>Plataforma original: {$row["Plataforma"]}</p>
                 <p>Fecha de lanzamiento: {$row["Lanzamiento"]}.</p>
                 <p>Publicadora: {$row["Publicadora"]}</p>
                 <p>Precio: {$row["Precio"]}€</p>
-            </div>";
+            </div></a>";
         }
         echo "</section>";
     }

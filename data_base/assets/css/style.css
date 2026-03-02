@@ -10,10 +10,19 @@ img{
     max-width: 100%;
 }
 
+a button{
+    cursor: pointer;
+}
+
 section.juegos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+section.juegos a{
+    color: black;
+    text-decoration: none;
 }
 
 section.juegos div{
@@ -22,9 +31,28 @@ section.juegos div{
     padding: 10px;
     max-width: 250px;
     border-radius: 10px;
+    transition: 0.8s;
+
+    &:hover{
+        background-color: blue;
+        color: red;
+        scale: 1.1;
+    }
 }
 
 section.juegos div img{
     aspect-ratio: 1/1;
     border-radius: 5px;
+}
+
+section.info{
+    justify-self: center;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 400px;
+}
+
+section.info img{
+    border-radius: 10px;
 }
