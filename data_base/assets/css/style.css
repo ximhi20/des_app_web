@@ -25,7 +25,7 @@ section.juegos a{
     text-decoration: none;
 }
 
-section.juegos div{
+section.juegos div div{
     background-color: blueviolet;
     margin: 10px;
     padding: 10px;

@@ -60,14 +60,15 @@
         echo "<h2>Lista de videojuegos</h2><section class='juegos'>";
         // Output data of each row
         while($row = $result->fetch_assoc()) {
-            echo "<a href='info.php?id={$row["id"]}'><div id='{$row["id"]}'>
+            echo "<div><a href='info.php?id={$row["id"]}'><div id='{$row["id"]}'>
                 <h3>{$row["Nombre"]}</h3>
                 <img src='".ENLACES["logo"]."{$row["Portada"]}' alt='portada de {$row["Nombre"]}'>
                 <p>Plataforma original: {$row["Plataforma"]}</p>
                 <p>Fecha de lanzamiento: {$row["Lanzamiento"]}.</p>
                 <p>Publicadora: {$row["Publicadora"]}</p>
                 <p>Precio: {$row["Precio"]}€</p>
-            </div></a>";
+            </div></a>
+            <a href='borrar.php?id={$row["id"]}'><button type='button'>&#8593; Borrar de la lista</button></a></div>";
         }
         echo "</section>";
     }

@@ -38,11 +38,12 @@
                 }
                 echo " y tiene un precio de {$row["Precio"]}€.</p>
                 <p>Descripción: {$row["Descripción"]}.</p>
+                <a href='borrar.php?id={$row["id"]}'><button type='button'>Borrar de la lista</button></a>
             </section>";
         }
     }
     else {
-        echo "<h2>Sin resultados</h2>";
+        echo "<h2>No se encontró el elemento</h2>";
     }
 
     $sql = "SELECT id, Nombre, Portada, Plataforma, Lanzamiento, Publicadora, Precio FROM Videojuegos WHERE id != $id ORDER BY RAND() DESC LIMIT 4";

@@ -12,7 +12,7 @@
     <?php
         if($index){
             // Que me de la opción de reiniciar la lista a su estado inicial si estoy en el index
-            echo "<a href='recrear.php'><button type='button'>Reinicia la lista.</button></a>";
+            echo "<a href='recrear.php'><button type='button'>Reinicia la lista</button></a>";
         }
     ?>
 </header>

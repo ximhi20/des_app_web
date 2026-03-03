@@ -49,7 +49,7 @@ VALUES
 
     cerrar();
 
-    echo "<p>Reinicio creado correctamente.</p>";
+    echo "<p>Reinicio realizado correctamente.</p>";
 
     incluir("terminar");
 ?>
