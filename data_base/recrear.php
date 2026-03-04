@@ -32,7 +32,7 @@
 VALUES
 ('Kingdom Hearts', 'Trata de las aventuras de Sora visitando otros Mundos y salvándoles de los Sincorazón mientras busca a sus amigos junto con Donald y Goofy', 'RPG', 'PlayStation 2', 'Square', 'Disney', 15.00, '2002-03-28', 'kh.webp'),
 ('Dragon Age: Origins', 'Vive las aventuras del Guarda Gris, único superviviente de una orden que necesita salvar su continente de la Ruina, enfrentándose a los Engendros Tenebrosos en su camino a derrotar al Archidemonio y detenerlos antes de que sea demasiado tarde', 'RPG', 'Xbox 360', 'BioWare', 'Electronic Arts', 20.00, '2009-11-03', 'dao.png'),
-('Baldur''s Gate', 'En este juego experimentas los Reinos Olvidados en una aventura donde te enfrentas a quienes desean destruir Faerûn', 'RPG', 'PC', 'BioWare', 'Interplay Entertainment', 20.00, '1998-11-30', 'bg.webp'),
+('Baldur`s Gate', 'En este juego experimentas los Reinos Olvidados en una aventura donde te enfrentas a quienes desean destruir Faerûn', 'RPG', 'PC', 'BioWare', 'Interplay Entertainment', 20.00, '1998-11-30', 'bg.webp'),
 ('The Elder Scrolls: Arena', 'En el primer videojuego de la famosa saga The Elder Scrolls, viajas por todo el continente de Tamriel con el objetivo de rescatar al emperador', 'RPG', 'PC', 'Bethesda', 'Bethesda', 2.00, '1994-03-25', 'tesa.webp'),
 ('Horizon Zero Dawn', 'En este juego experimentas la vida de Aloy junto con sus intentos de descubrir quien es su madre y detener planes de erradicación mundial que descubrió entre medias', 'Aventura', 'PlayStation 4', 'Guerrilla Games', 'Sony', 35.00, '2017-02-28', 'hzd.jpg'),
 ('Final Fantasy', 'En el juego que empezó la saga, cuatro compañeros tienen que reestablecer la luz de los orbes elementales del mundo que llevan consigo y salvar su mundo de las fuerzas malvadas a las que se enfrentan durante el juego', 'RPG', 'NES', 'Square', 'Square', 10.00, '1987-12-18', 'ffi.webp'),
@@ -47,9 +47,11 @@ VALUES
 
     ejecutar();
 
-    cerrar();
+    if($result){
+        echo "<p>Reinicio realizado correctamente.</p>";
+    }
 
-    echo "<p>Reinicio realizado correctamente.</p>";
+    cerrar();
 
     incluir("terminar");
 ?>

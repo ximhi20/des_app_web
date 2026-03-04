@@ -35,7 +35,9 @@
 
         ejecutar();
 
-        echo "<p>Elemento borrado correctamente.</p>";
+        if($result){
+            echo "<p>Elemento borrado correctamente.</p>";
+        }
 
         cerrar();
     }

@@ -68,7 +68,8 @@
                 <p>Publicadora: {$row["Publicadora"]}</p>
                 <p>Precio: {$row["Precio"]}€</p>
             </div></a>
-            <a href='borrar.php?id={$row["id"]}'><button type='button'>&#8593; Borrar de la lista</button></a></div>";
+            <a href='borrar.php?id={$row["id"]}'><button type='button'>&#8593; Borrar de la lista</button></a>
+            <a href='formulario.php?id={$row["id"]}'><button type='button'>&#8593; Actualizar elemento</button></a></div>";
         }
         echo "</section>";
     }
