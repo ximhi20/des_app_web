@@ -45,7 +45,7 @@
         }
     }
     else{
-        echo "<p>(Nota, no usar el símbolo <span>'</span>, usar <span>`</span> en cuenta)</p>";
+        echo "<p class='advertencia'>(Nota, no usar el símbolo <span>'</span>, usar <span>`</span> en cuenta)</p>";
         if(isset($_GET["id"])){
             conectar();
             $sql = "SELECT * FROM `videojuegos` WHERE `id` = '$id'";
@@ -54,7 +54,7 @@
 
             if($result->num_rows > 0){
                 while($row = $result->fetch_assoc()) {
-                    echo "<form method='post'>
+                    echo "<form method='post' class='crear'>
                         <label>Nombre: <input type='text' name='Nombre' placeholder='Nombre' value='{$row["Nombre"]}' required></label><br>
                         <label>Descripción: <textarea name='Descripción' placeholder='Descripción' rows='4' cols='50'>{$row["Descripción"]}</textarea></label><br>
                         <label>Tipo: <input type='text' name='Tipo' placeholder='Tipo (RPG/Acción...)' value='{$row["Tipo"]}'></label><br>
@@ -73,7 +73,7 @@
             cerrar();
         }
         else{
-            echo "<form method='post'>
+            echo "<form method='post' class='crear'>
                 <label>Nombre: <input type='text' name='Nombre' placeholder='Nombre' required></label><br>
                 <label>Descripción: <textarea name='Descripción' placeholder='Descripción' rows='4' cols='50'></textarea></label><br>
                 <label>Tipo: <input type='text' name='Tipo' placeholder='Tipo (RPG/Acción...)'></label><br>

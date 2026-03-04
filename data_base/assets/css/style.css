@@ -56,3 +56,18 @@ section.info{
 section.info img{
     border-radius: 10px;
 }
+
+form.crear input,
+form.crear textarea,
+form.crear button{
+    margin: 2px;
+}
+
+p.advertencia{
+    color: red;
+}
+
+p.advertencia span{
+    color: darkred;
+    font-weight: bolder;
+}

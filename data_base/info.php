@@ -39,6 +39,7 @@
                 echo " y tiene un precio de {$row["Precio"]}€.</p>
                 <p>Descripción: {$row["Descripción"]}.</p>
                 <a href='borrar.php?id={$row["id"]}'><button type='button'>Borrar de la lista</button></a>
+                <a href='formulario.php?id={$row["id"]}'><button type='button'>&#8593; Actualizar elemento</button></a></div>
             </section>";
         }
     }
