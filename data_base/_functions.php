@@ -67,9 +67,12 @@
                 <p>Fecha de lanzamiento: {$row["Lanzamiento"]}.</p>
                 <p>Publicadora: {$row["Publicadora"]}</p>
                 <p>Precio: {$row["Precio"]}€</p>
-            </div></a>
-            <a href='borrar.php?id={$row["id"]}'><button type='button'>&#8593; Borrar de la lista</button></a>
-            <a href='formulario.php?id={$row["id"]}'><button type='button'>&#8593; Actualizar elemento</button></a></div>";
+            </div></a>";
+            if(ADMIN){
+                echo "<a href='borrar.php?id={$row["id"]}'><button type='button'>&#8593; Borrar de la lista</button></a>
+                <a href='formulario.php?id={$row["id"]}'><button type='button'>&#8593; Actualizar elemento</button></a>";
+            }
+            echo "</div>";
         }
         echo "</section>";
     }

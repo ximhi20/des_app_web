@@ -10,8 +10,8 @@
 <header>
     <h1><?php escritura("nombre"); ?></h1>
     <?php
-        // Que me de la opción de reiniciar la lista a su estado inicial o hacer una nueva ficha si estoy en el index
-        if($index){
+        // Que me de la opción de reiniciar la lista a su estado inicial o hacer una nueva ficha si estoy en el index y en modo admin
+        if($index && ADMIN){
             echo "<a href='recrear.php'><button type='button'>Reinicia la lista</button></a>
             <a href='formulario.php'><button type='button'>Haz una nueva ficha</button></a>";
         }

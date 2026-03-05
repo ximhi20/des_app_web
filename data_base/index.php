@@ -7,7 +7,7 @@
         $page = $_GET['p'];
     }
     else{
-        $page = 0;
+        $page = 1;
     }
 
     require_once "_functions.php";
@@ -19,8 +19,9 @@
     conectar();
 
     // SQL query
-    $offset = $page*4;
-    $sql = "SELECT id, Nombre, Portada, Plataforma, Lanzamiento, Publicadora, Precio FROM Videojuegos LIMIT 4 OFFSET $offset";
+    const START = 8;
+    $offset = ($page-1)*START;
+    $sql = "SELECT id, Nombre, Portada, Plataforma, Lanzamiento, Publicadora, Precio FROM Videojuegos LIMIT ".START." OFFSET $offset";
     //Llamada a la función creada para ejecutar la SQL query
     ejecutar();
 
@@ -35,15 +36,14 @@
         while($row = $result->fetch_assoc()) {
             $total = $row['COUNT(*)'];
         }
-        $actual = $offset+4;
-
-        if($page > 0){
+        $actual = $offset+START;
+        if($page > 1){
             $ant = $page-1;
-            echo "<a href='?p=$ant'><button type='button'>&#8592;</button></a>";
+            echo "<a href='?p=$ant' class='page'><button type='button'>&#8592;</button></a>";
         }
         if($actual < $total){
             $sig = $page+1;
-            echo "<a href='?p=$sig'><button type='button'>&#8594;</button></a>";
+            echo "<a href='?p=$sig' class='page'><button type='button'>&#8594;</button></a>";
         }
     }
     else {
