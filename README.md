@@ -28,6 +28,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - session_pruebas: pruebas de como meterse en una sesión.
 - crm: copia del ejercicio del mismo nombre creado por Miguel al que le cambio los datos (se mantiene el original como un zip).
 - data_base: pruebas de SQL.
+- mail-tests: pruebas de "mandado masivo de emails" (falso) por PHP.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).

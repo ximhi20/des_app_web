@@ -13,5 +13,5 @@
         "inicio" => "assets/inc/_inicio.php", // El de para incluir el incio en un PHP
         "terminar" => "assets/inc/_terminar.php", // El de para incluir el final en un PHP
         "logo" => "assets/img/games-logos/" // El del logo de los juegos, sin el nombre del archivo (SQL)
-    ]
+    ];
 ?>
