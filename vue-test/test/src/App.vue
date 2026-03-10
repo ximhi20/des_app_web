@@ -1,10 +1,21 @@
-<script setup></script>
+<script setup>
+  import Header from './components/Header.vue';
+  import Footer from './components/Footer.vue';
+</script>
 
 <template>
-  <h1>Pruebas de VUE</h1>
+  <Header/>
+
   <main>
-    
+    <RouterView/>
   </main>
+
+  <Footer/>
 </template>
 
-<style scoped></style>
+<style scoped>
+  main{
+    text-align: center;
+    min-height: 80vh;
+  }
+</style>

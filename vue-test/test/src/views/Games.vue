@@ -1,5 +1,7 @@
 <script setup></script>
 
-<template></template>
+<template>
+    <h1>Juegos de la saga</h1>
+</template>
 
 <style scoped></style>
