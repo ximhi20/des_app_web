@@ -1,10 +1,10 @@
 <script setup>
     import Titles from '@/components/Titles.vue';
-    const TitleHome = "Resumen de la saga";
+    const TitleWorlds = "Mundos principales";
 </script>
 
 <template>
-    <Titles :title="TitleHome"/>
+    <Titles :title="TitleWorlds"/>
 </template>
 
 <style scoped></style>

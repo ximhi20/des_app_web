@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Final Mix",
+        "category": "Action",
+        "price": 12
+    },
+    {
+        "id": 2,
+        "name": "II Final Mix",
+        "category": "Action",
+        "price": 12
+    },
+    {
+        "id": 3,
+        "name": "Birth by Sleep",
+        "category": "Commands",
+        "price": 10
+    },
+    {
+        "id": 4,
+        "name": "Re: Chain of Memories",
+        "category": "Catds",
+        "price": 8
+    }
+]

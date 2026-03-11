@@ -3,8 +3,9 @@
 <template>
     <header>
         <nav>
-            <RouterLink to="/">Página principal</RouterLink>
-            <RouterLink to="/Games">Juegos</RouterLink>
+            <RouterLink to="/">Inicio</RouterLink>
+            <RouterLink to="/games">Juegos</RouterLink>
+            <RouterLink to="/worlds">Mundos</RouterLink>
         </nav>
     </header>
 </template>
