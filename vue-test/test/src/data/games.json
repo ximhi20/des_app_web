@@ -3,24 +3,91 @@
         "id": 1,
         "name": "Final Mix",
         "category": "Action",
+        "description": "El primer juego de la saga, remasterizado con mejores gráficos y contenido extra",
         "price": 12
     },
     {
         "id": 2,
         "name": "II Final Mix",
         "category": "Action",
+        "description": "Revive la segunda aventura que Sora recuerda con unos gráficos mejorados y nuevo contenido",
         "price": 12
     },
     {
         "id": 3,
         "name": "Birth by Sleep",
         "category": "Commands",
+        "description": "Controla a Terra, Ventus o Aqua en sus respectivas aventuras en su pelea contra los nescientes",
         "price": 10
     },
     {
         "id": 4,
         "name": "Re: Chain of Memories",
-        "category": "Catds",
+        "category": "Cards",
+        "description": "En esta aventura olvidada, Sora investiga los misterios del Castillo del Olvido",
         "price": 8
+    },
+    {
+        "id": 5,
+        "name": "A Fragmentary Passage",
+        "category": "Action",
+        "description": "Controla a Aqua mientras intenta escapar del Reino de la Oscuridad donde se quedo atrapada al final de BbS",
+        "price": 15
+    },
+    {
+        "id": 6,
+        "name": "III",
+        "category": "Action",
+        "description": "La batalla final contra Xehanort y la luz contra la oscuridad",
+        "price": 20
+    },
+    {
+        "id": 7,
+        "name": "Dream Drop Distance",
+        "category": "Commands",
+        "description": "Sora y Riku viajan entre Mundos dormidos como parte de su examen de Maestría",
+        "price": 11
+    },
+    {
+        "id": 8,
+        "name": "358/2 Days",
+        "category": "Commands",
+        "description": "La historia de Roxas dentro de la Organización XIII y su amistad con Axel y Xion",
+        "price": 9
+    },
+    {
+        "id": 9,
+        "name": "Re:Coded",
+        "category": "Commands",
+        "description": "Una versión de datos de Sora viaja por una versión digital del diario de Pepito para descubrir el significado de un misterioso mensaje que se escribió ahí",
+        "price": 7
+    },
+    {
+        "id": 10,
+        "name": "χ",
+        "category": "Cards",
+        "description": "Una historia que tiene lugar antes de la Guerra de las Llaves Espada y revela los orígenes del conflicto",
+        "price": 6
+    },
+    {
+        "id": 11,
+        "name": "Dark Road",
+        "category": "Cards",
+        "description": "Explora el pasado de Xehanort y cómo se convirtió en el villano principal de la saga",
+        "price": 6
+    },
+    {
+        "id": 12,
+        "name": "Melody of Memory",
+        "category": "Rhythm",
+        "description": "Kairi repasa las aventuras de Sora a través de sus recuerdos en un intento de encontrarle tras su desaparición en KHIII",
+        "price": 13
+    },
+    {
+        "id": 13,
+        "name": "Missing Link",
+        "category": "Action",
+        "description": "Una nueva historia que iba a estar ambientada en Scala ad Caelum y conectaría el pasado con el futuro de la saga",
+        "price": 18
     }
 ]

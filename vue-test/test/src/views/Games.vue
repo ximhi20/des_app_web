@@ -8,13 +8,20 @@
 <template>
     <Titles :title="TitleGames"/>
 
-    <div class="menu-container">  
+    <div class="game-container">  
         <GamesCard
             v-for="game in games"
             :key="game.id"
-            :product="game"
+            :game="game"
         />  
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+    .game-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+        margin: 0 10px;
+    }
+</style>
