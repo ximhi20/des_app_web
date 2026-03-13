@@ -22,12 +22,21 @@
         }
 
         li{
-            margin: 5px;
+            margin: 10px;
         }
 
         a{
             text-decoration: none;
             color: red;
+            background-color: violet;
+            padding: 3px;
+            border-radius: 3px;
+            transition: .75s;
+
+            &:hover{
+                color: blue;
+                background-color: red;
+            }
         }
     </style>
 </head>
@@ -42,7 +51,14 @@
                 foreach ($dir as $folder) {
                     $exp = explode("/", $folder);
                     $name = $exp[2];
-                    echo "<li><a href='$folder'>$name</a></li>";
+                    echo "<li><a href=";
+                    if($name != "_apache"){
+                        echo"'$folder'";
+                    }
+                    else{
+                        echo "apache";
+                    }
+                    echo ">$name</a></li>";
                 };
             ?>
         </ul>
