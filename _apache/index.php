@@ -5,7 +5,6 @@
     incluirAp("inicio");
 ?>
 
-<p>Probablemente desees volver al inicio:</p>
-<a href="/index.php">Vuelta al inicio.</a>
+<a href="/product">Ir a productos.</a>
 
 <?php incluirAp("final"); ?>
