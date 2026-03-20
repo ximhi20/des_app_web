@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    margin: 10px 0;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+button{
+    cursor: pointer;
+    padding: 1px;
+    background-color: black;
+    color: aliceblue;
+
+    &:hover{
+        background-color: aqua;
+        color: brown;
+    }
+}
+
+video{
+    max-width: 800px;
+}

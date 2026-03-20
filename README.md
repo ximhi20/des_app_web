@@ -31,6 +31,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - data_base: pruebas de SQL.
 - mail-tests: pruebas de "mandado masivo de emails" (falso) por PHP.
 - vue-test: pruebas con el vue.
+- video-prueba: pruebas de la etiqueta video.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
