@@ -32,13 +32,13 @@
                 [
                     "name" => "Xehanort",
                     "url" => "img/personajes/antagonistas/xehanort.webp",
-                    "alt" => "Todos los miembros de la Organización XIII.",
+                    "alt" => "El Maestro Xehanort como se ve en KH III.",
                     "desc" => "El antagonista principal en la mayoría de los juegos."
                 ],
                 [
                     "name" => "Organización XIII",
                     "url" => "img/personajes/antagonistas/organizationxiii.webp",
-                    "alt" => "El Maestro Xehanort como se ve en KH III.",
+                    "alt" => "Todos los miembros de la Organización XIII.",
                     "desc" => "Un grupo antagonístico recurrente en varios juegos."
                 ],
                 [

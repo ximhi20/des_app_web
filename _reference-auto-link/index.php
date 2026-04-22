@@ -59,8 +59,10 @@
                         echo "apache";
                     }
                     echo ">$name</a></li>";
-                };
+                }
             ?>
+
+            <li><a href="GitHub/Proyecto-final_DAW-2026">Proyecto Final</a></li>
         </ul>
     </main>
 
