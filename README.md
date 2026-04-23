@@ -32,6 +32,7 @@ Aquí tengo los archivos que vaya haciendo en clase.
 - mail-tests: pruebas de "mandado masivo de emails" (falso) por PHP.
 - vue-test: pruebas con el vue.
 - video-prueba: pruebas de la etiqueta video.
+- poo: prueba de Programación Orientada a Objetos en php.
 
 ## Enlaces:
 - Codepen: [Ximhi 20](https://codepen.io/Ximhi-20).
